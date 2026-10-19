@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-19",
+  "reason": "Reviewer-name text changed from the specific assistant name to 'an AI assistant' at the account owner's request; config header comment no longer names an unpublished planning file. Labels, boxes, polygons, settings and all scores are unchanged (checked field by field, ignoring only the edited text and the dependent corrections_sha256 field).",
+  "note": "Run records and split manifests created before this edit store the old hashes below.",
+  "files": {
+    "configs/experiment.yaml": {
+      "old_sha256": "257d9a81394edf718d4f071d6d23f0325fd82c365456ce775d241f97940ac385",
+      "new_sha256": "93660c3e1d5f1919c3a56aead10503747a904acd380bcda3abd42c76f600cc37"
+    },
+    "configs/exploratory_scale_aug.yaml": {
+      "old_sha256": "5936a6a8f064f220c3cac91c15e8f96bd19be9e142589667ba7074e79a5bbada",
+      "new_sha256": "b3a6e1a050488856984c6adafb902e5204694d267911baa6eb776a0fc6ab9709"
+    },
+    "data/annotations/corrections/img1_corrections.json": {
+      "old_sha256": "33e0bb542968ab4859b3e0ed48f3a49043dd4e9cbd6ad84c92516eddb5140d6f",
+      "new_sha256": "1c4bf7845b64b87a39c7a8063536e4d849e95511c5c433c783ed168967bae66e"
+    },
+    "data/annotations/corrections/img2_corrections.json": {
+      "old_sha256": "54149944bd45b780c9f8d0da81a23877d0c6cd7b1546c1065411951706a59630",
+      "new_sha256": "d83e935adb6524970ccf9ec2b7d69b2d34dabecd5b26932f324b0717004f479d"
+    },
+    "data/annotations/img1.json": {
+      "old_sha256": "f332edfc7302be6755b8685be8c63a229583669d8357f756d923c81303b160dd",
+      "new_sha256": "36cea6a7b45c21eb08866fc8d104b96c14c4186a3882854c5674187434f7da08"
+    },
+    "data/annotations/img2.json": {
+      "old_sha256": "c084f96ed5f1a59bea51af2bfed1491c1a0e1aeb8d37f1f4a54b78e499fad489",
+      "new_sha256": "843e113927bf6c6285f46664704e420fee2ec301413a47a94eebe0894966637c"
+    },
+    "data/annotations/rois.json": {
+      "old_sha256": "ac2ba0f02fd4cfa528883bb2cc2141f90ed610399c385eb144a13dfb2be9bfa6",
+      "new_sha256": "e0b4767a84b07b409dc492999f2418bca25c995b7d98ae42b04ab260f4146bdb"
+    }
+  }
+}

@@ -4,7 +4,7 @@
   "provenance": {
     "method": "Inner wire edges measured from wire-colour profiles at six positions per side on the photograph (not from annotation extents); least-squares line per side; corners = line intersections. Each corner was then visually checked in 240 px zoomed crops.",
     "reviewer_type": "ai_visual_inspection",
-    "reviewer": "Claude (claude-opus-5-5), 2026-10-19",
+    "reviewer": "an AI assistant, 2026-10-19",
     "human_verified": false,
     "note": "Proposed coordinates. A person should confirm them before the evaluation is treated as verified."
   },

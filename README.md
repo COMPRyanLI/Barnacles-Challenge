@@ -4,7 +4,7 @@ A small, reproducible prototype for the [DALI Barnacles challenge](https://os.da
 individual barnacle targets in a field photograph, counts those whose centres lie inside the inner
 square of the green frame, and writes an overlay a person can check and correct.
 
-> **Status of the evidence.** The two labeled photos were reviewed by an AI assistant (Claude),
+> **Status of the evidence.** The two labeled photos were reviewed by an AI assistant,
 > **not by a person**. Every accuracy number in this repository is therefore marked
 > **provisional**. Only two independent scenes exist, so there is no untouched test set. Read
 > [`reports/final_report.md`](reports/final_report.md) for the measured results. The short version:

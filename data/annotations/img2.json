@@ -48,7 +48,7 @@
   "review_status": "ai_visual_inspection_provisional",
   "review_provenance": {
     "type": "ai_visual_inspection",
-    "name": "Claude (claude-opus-5-5), automated visual inspection",
+    "name": "an AI assistant, automated visual inspection",
     "date": "2026-10-19",
     "method": "Inspected numbered contact sheets of every flagged candidate (reports/label_review/<id>/flagged_sheet_*.png, detail_sheet.png with split proposals and neighbouring candidates) and all native-resolution ROI tiles (reports/label_review/<id>/roi_tiles/) with strokes overlaid. No model predictions existed at review time.",
     "reviewer_type": "ai_visual_inspection",
@@ -64,7 +64,7 @@
       "unflagged_candidates": "Unflagged single-ring candidates were reviewed only as part of the ROI tile survey, not one by one."
     },
     "corrections_file": "data/annotations/corrections/img2_corrections.json",
-    "corrections_sha256": "54149944bd45b780c9f8d0da81a23877d0c6cd7b1546c1065411951706a59630"
+    "corrections_sha256": "d83e935adb6524970ccf9ec2b7d69b2d34dabecd5b26932f324b0717004f479d"
   },
   "summary": {
     "n_candidates": 521,

@@ -1,5 +1,5 @@
 # Barnacle detection experiment configuration.
-# Training/inference numbers are starting settings from docs/CLAUDE_CODE_IMPLEMENTATION_PLAN.md,
+# Training/inference numbers are starting settings from the project design notes,
 # not validated optima. Relative paths resolve against the repository root.
 
 experiment_id: yolo11n_tile640_scaleaug_exploratory

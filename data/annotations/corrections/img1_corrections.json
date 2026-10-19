@@ -9,7 +9,7 @@
   },
   "reviewer": {
     "type": "ai_visual_inspection",
-    "name": "Claude (claude-opus-5-5), automated visual inspection",
+    "name": "an AI assistant, automated visual inspection",
     "date": "2026-10-19",
     "method": "Inspected numbered contact sheets of every flagged candidate (reports/label_review/<id>/flagged_sheet_*.png, detail_sheet.png with split proposals and neighbouring candidates) and all native-resolution ROI tiles (reports/label_review/<id>/roi_tiles/) with strokes overlaid. No model predictions existed at review time."
   },

@@ -15,8 +15,6 @@ runs/**/weights/
 # Not part of the submission: AI planning/prompt files, local agent tooling, the challenge brief
 docs/
 analysis/model_recommendation.md
-CLAUDE.md
 AGENTS.md
-.claude/
 ML Challenge.pdf
 *.egg-info/

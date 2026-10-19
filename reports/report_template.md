@@ -301,3 +301,8 @@ seen. Two safeguards are not yet enforced by code (known gaps):
 
 * `evaluate` does not compare the config and split-manifest hashes against the run record.
 * `build-dataset` does not refuse annotations that failed validation.
+
+A later text-only edit changed the reviewer-name wording in the annotation, correction and ROI files
+and a config header comment. The old and new file hashes, and the field-by-field check that labels,
+polygons and settings are unchanged, are recorded in `data/manifests/provenance_text_edit.json`.
+Run records written before that edit store the old hashes.
