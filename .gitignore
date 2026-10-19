@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ultralytics/
+.superpowers/
+tmp/
+Barnacles/__MACOSX/
+
+# Regenerable data and large binaries; hashes are recorded in manifests and run records.
+data/processed/
+*.pt
+runs/**/weights/
+
+# Not part of the submission: AI planning/prompt files, local agent tooling, the challenge brief
+docs/
+analysis/model_recommendation.md
+CLAUDE.md
+AGENTS.md
+.claude/
+ML Challenge.pdf
+*.egg-info/

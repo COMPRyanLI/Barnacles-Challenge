@@ -1,0 +1,13 @@
+{
+  "description": "SHA-256 of the supplied PNGs (raw files are never modified).",
+  "files": {
+    "Barnacles/Barnacles/img1.png": "c24a912de168fb5e72b31fd4120f20d4fbe89b80eba211b6a73c54504c77ae00",
+    "Barnacles/Barnacles/img2.png": "f407ec74f56467a19078778a728408a9d79079088550de3b51fdd5db1b4843b9",
+    "Barnacles/Barnacles/mask1.png": "caf204346979219f9e31f8aee12d5d2ba4a7b1fc78336ce16f35c2eea3fe1137",
+    "Barnacles/Barnacles/mask2.png": "e93156b2e8693806fe0e8e0f62369b10bd78a580b098c365703f17c71c7ebdbc",
+    "Barnacles/Barnacles/masked_img1.png": "ae7448c9ca8a52518694356aa6692c390cf2de53fd0d400389fdb954cfd0c13f",
+    "Barnacles/Barnacles/masked_img2.png": "f64272d56bd58f4c8f51f16548f6020bf446555ff58c464e0cac9f7b48c51b00",
+    "Barnacles/Barnacles/unseen_img1.png": "506f55e6c0c6f5493f74de414690e1e1f066d05ec14224be2dbd5a636b564b67",
+    "Barnacles/Barnacles/unseen_img2.png": "1b43c24fdeb612ea01903f948f0be9b7c0c5b72f90c75127c5be4bfc2f5864cf"
+  }
+}

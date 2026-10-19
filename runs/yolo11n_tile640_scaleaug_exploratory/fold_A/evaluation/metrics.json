@@ -1,0 +1,289 @@
+{
+  "fold": "A",
+  "experiment_id": "yolo11n_tile640_scaleaug_exploratory",
+  "train_source": "img1",
+  "heldout_source": "img2",
+  "annotation_version": "v1-provisional",
+  "annotation_sha256": "c084f96ed5f1a59bea51af2bfed1491c1a0e1aeb8d37f1f4a54b78e499fad489",
+  "review_status": "ai_visual_inspection_provisional",
+  "provisional": true,
+  "scored_region": "inner-frame ROI polygon of the held-out photo intersected with reviewed regions",
+  "reviewed_area_fraction": 1.0,
+  "checkpoint": "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\runs\\yolo11n_tile640_scaleaug_exploratory\\fold_A\\weights\\best.pt",
+  "checkpoint_sha256": "0d14462af0ff9ccc0a284af117297c61a2b52437e7c98621834df245913c8603",
+  "selected_epoch": 79,
+  "seed": 42,
+  "confidence": 0.5,
+  "confidence_source": "inner-validation selection (development photo only)",
+  "local_nms_iou": 0.5,
+  "global_nms_iou": 0.5,
+  "primary": {
+    "confidence": 0.5,
+    "gt_count": 397,
+    "pred_count": 469,
+    "signed_count_error": 72,
+    "absolute_count_error": 72,
+    "absolute_percentage_error": 18.1360201511335,
+    "tp": 280,
+    "fp": 189,
+    "fn": 117,
+    "precision": 0.5970149253731343,
+    "recall": 0.7052896725440806,
+    "f1": 0.6466512702078522,
+    "center_match": {
+      "tolerance": "0.5 * sqrt(ref_w * ref_h)",
+      "tp": 307,
+      "fp": 162,
+      "fn": 90,
+      "precision": 0.6545842217484008,
+      "recall": 0.7732997481108312,
+      "f1": 0.7090069284064665
+    }
+  },
+  "fixed_confidence_sensitivity": {
+    "confidence": 0.25,
+    "gt_count": 397,
+    "pred_count": 883,
+    "signed_count_error": 486,
+    "absolute_count_error": 486,
+    "absolute_percentage_error": 122.41813602015114,
+    "tp": 334,
+    "fp": 549,
+    "fn": 63,
+    "precision": 0.3782559456398641,
+    "recall": 0.8413098236775819,
+    "f1": 0.521875,
+    "center_match": {
+      "tolerance": "0.5 * sqrt(ref_w * ref_h)",
+      "tp": 362,
+      "fp": 521,
+      "fn": 35,
+      "precision": 0.4099660249150623,
+      "recall": 0.9118387909319899,
+      "f1": 0.565625
+    }
+  },
+  "merge": {
+    "raw_tile_detections_at_conf": 645,
+    "after_global_nms_at_conf": 469,
+    "counted_in_region": 469,
+    "seam_edge_detections_counted": 45
+  },
+  "seam_diagnostic": {
+    "band_px": 32,
+    "definition": "centre within 32px of an interior tile boundary (tile 640/stride 512, so the 128px overlaps lie inside or next to the band)",
+    "recall": {
+      "interior": {
+        "n": 279,
+        "tp": 190,
+        "recall": 0.6810035842293907
+      },
+      "seam": {
+        "n": 118,
+        "tp": 90,
+        "recall": 0.7627118644067796
+      }
+    },
+    "precision": {
+      "interior": {
+        "n_pred": 285,
+        "tp": 188,
+        "fp": 97,
+        "precision": 0.6596491228070176
+      },
+      "seam": {
+        "n_pred": 184,
+        "tp": 92,
+        "fp": 92,
+        "precision": 0.5
+      }
+    },
+    "count": {
+      "seam_refs": 118,
+      "seam_preds": 184,
+      "interior_refs": 279,
+      "interior_preds": 285
+    }
+  },
+  "size_diagnostic": {
+    "bins": {
+      "metric": "sqrt(box_area) px",
+      "small_lt": 18.439088914585774,
+      "large_ge": 23.979157616563597,
+      "source": "training labels"
+    },
+    "recall": {
+      "large": {
+        "n": 395,
+        "tp": 279,
+        "recall": 0.7063291139240506
+      },
+      "medium": {
+        "n": 2,
+        "tp": 1,
+        "recall": 0.5
+      }
+    },
+    "precision": {
+      "large": {
+        "n_pred": 349,
+        "tp": 273,
+        "fp": 76,
+        "precision": 0.7822349570200573
+      },
+      "medium": {
+        "n_pred": 61,
+        "tp": 7,
+        "fp": 54,
+        "precision": 0.11475409836065574
+      },
+      "small": {
+        "n_pred": 59,
+        "tp": 0,
+        "fp": 59,
+        "precision": 0.0
+      }
+    }
+  },
+  "boundary": {
+    "references_crossing_roi_edge": 8,
+    "eroded_interior_band_px": 32,
+    "eroded_interior_scores": {
+      "confidence": 0.0,
+      "gt_count": 382,
+      "pred_count": 453,
+      "signed_count_error": 71,
+      "absolute_count_error": 71,
+      "absolute_percentage_error": 18.586387434554975,
+      "tp": 272,
+      "fp": 181,
+      "fn": 110,
+      "precision": 0.6004415011037527,
+      "recall": 0.7120418848167539,
+      "f1": 0.651497005988024,
+      "center_match": {
+        "tolerance": "0.5 * sqrt(ref_w * ref_h)",
+        "tp": 297,
+        "fp": 156,
+        "fn": 85,
+        "precision": 0.6556291390728477,
+        "recall": 0.7774869109947644,
+        "f1": 0.7113772455089821
+      }
+    }
+  },
+  "heldout_confidence_curve": {
+    "note": "DIAGNOSTIC ONLY - computed after selection, never used to choose the threshold",
+    "rows": [
+      {
+        "confidence": 0.05,
+        "pred_count": 3114,
+        "signed_count_error": 2717,
+        "absolute_percentage_error": 684.3828715365239,
+        "precision": 0.12138728323699421,
+        "recall": 0.9521410579345088,
+        "f1": 0.21532326972372542
+      },
+      {
+        "confidence": 0.1,
+        "pred_count": 1884,
+        "signed_count_error": 1487,
+        "absolute_percentage_error": 374.55919395466,
+        "precision": 0.1921443736730361,
+        "recall": 0.9118387909319899,
+        "f1": 0.317404647084612
+      },
+      {
+        "confidence": 0.2,
+        "pred_count": 1060,
+        "signed_count_error": 663,
+        "absolute_percentage_error": 167.00251889168766,
+        "precision": 0.32452830188679244,
+        "recall": 0.8664987405541562,
+        "f1": 0.4722031571722718
+      },
+      {
+        "confidence": 0.3,
+        "pred_count": 767,
+        "signed_count_error": 370,
+        "absolute_percentage_error": 93.19899244332494,
+        "precision": 0.423728813559322,
+        "recall": 0.818639798488665,
+        "f1": 0.5584192439862543
+      },
+      {
+        "confidence": 0.4,
+        "pred_count": 593,
+        "signed_count_error": 196,
+        "absolute_percentage_error": 49.37027707808564,
+        "precision": 0.5143338954468802,
+        "recall": 0.7682619647355163,
+        "f1": 0.6161616161616161
+      },
+      {
+        "confidence": 0.5,
+        "pred_count": 469,
+        "signed_count_error": 72,
+        "absolute_percentage_error": 18.1360201511335,
+        "precision": 0.5970149253731343,
+        "recall": 0.7052896725440806,
+        "f1": 0.6466512702078522
+      },
+      {
+        "confidence": 0.6,
+        "pred_count": 379,
+        "signed_count_error": -18,
+        "absolute_percentage_error": 4.534005037783375,
+        "precision": 0.6543535620052771,
+        "recall": 0.6246851385390428,
+        "f1": 0.6391752577319587
+      },
+      {
+        "confidence": 0.7,
+        "pred_count": 273,
+        "signed_count_error": -124,
+        "absolute_percentage_error": 31.234256926952142,
+        "precision": 0.7289377289377289,
+        "recall": 0.5012594458438288,
+        "f1": 0.5940298507462687
+      },
+      {
+        "confidence": 0.8,
+        "pred_count": 186,
+        "signed_count_error": -211,
+        "absolute_percentage_error": 53.14861460957179,
+        "precision": 0.7956989247311828,
+        "recall": 0.37279596977329976,
+        "f1": 0.5077186963979416
+      },
+      {
+        "confidence": 0.9,
+        "pred_count": 67,
+        "signed_count_error": -330,
+        "absolute_percentage_error": 83.1234256926952,
+        "precision": 0.9104477611940298,
+        "recall": 0.15365239294710328,
+        "f1": 0.2629310344827586
+      }
+    ]
+  },
+  "tiles": 9,
+  "saturated_tiles": [],
+  "warnings": [],
+  "tile_size": 640,
+  "tile_stride": 512,
+  "device": "0",
+  "precision_mode": "fp32",
+  "timings_s": {
+    "prepare_tiles": 0.013322699996933807,
+    "tile_inference": 2.171037799998885,
+    "restore_merge_count": 0.011958300005062483
+  },
+  "overlays": [
+    "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\runs\\yolo11n_tile640_scaleaug_exploratory\\fold_A\\evaluation\\overlay_full.jpg",
+    "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\runs\\yolo11n_tile640_scaleaug_exploratory\\fold_A\\evaluation\\zoom_dense_x1835_y1101.png",
+    "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\runs\\yolo11n_tile640_scaleaug_exploratory\\fold_A\\evaluation\\zoom_small_x1035_y301.png",
+    "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\runs\\yolo11n_tile640_scaleaug_exploratory\\fold_A\\evaluation\\zoom_dark_x1035_y1421.png",
+    "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\runs\\yolo11n_tile640_scaleaug_exploratory\\fold_A\\evaluation\\zoom_seam_x1835_y1101.png"
+  ]
+}

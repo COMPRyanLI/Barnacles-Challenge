@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="9.884" timestamp="2026-10-19T11:51:34.255280+08:00" hostname="ryanpc"><testcase classname="tests.test_train" name="test_one_epoch_training_round_trip" time="9.659" /></testsuite></testsuites>

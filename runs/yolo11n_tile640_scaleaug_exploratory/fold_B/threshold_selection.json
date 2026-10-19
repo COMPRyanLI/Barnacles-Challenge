@@ -1,0 +1,429 @@
+{
+  "fold": "B",
+  "dev_source": "img2",
+  "checkpoint": "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\runs\\yolo11n_tile640_scaleaug_exploratory\\fold_B\\weights\\best.pt",
+  "checkpoint_sha256": "dff74839779e7bb4bd01e34b398e880dd536695f41cbe14da260059e4f433164",
+  "rule": "max instance F1 at box IoU >= 0.5 on the inner-validation region over the fixed grid; ties -> higher recall, then higher confidence",
+  "grid": [
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "local_nms_iou": 0.5,
+  "global_nms_iou": 0.5,
+  "candidate_conf": 0.05,
+  "n_val_references": 133,
+  "val_region": {
+    "source_id": "img2",
+    "name": "val",
+    "crop_rect": [
+      2046,
+      224,
+      2585,
+      1863
+    ],
+    "x_min": 2046.5,
+    "x_max": null,
+    "masked_boxes": [
+      [
+        2001.0,
+        243.0,
+        2035.0,
+        285.0
+      ],
+      [
+        1963.0,
+        260.0,
+        2003.0,
+        316.0
+      ],
+      [
+        2007.0,
+        291.0,
+        2045.0,
+        328.0
+      ],
+      [
+        2008.0,
+        356.0,
+        2050.0,
+        403.0
+      ],
+      [
+        1951.0,
+        450.0,
+        2023.0,
+        506.0
+      ],
+      [
+        2038.0,
+        488.0,
+        2079.0,
+        522.0
+      ],
+      [
+        1967.0,
+        510.0,
+        2001.0,
+        555.0
+      ],
+      [
+        2008.0,
+        512.0,
+        2041.0,
+        539.0
+      ],
+      [
+        2004.0,
+        547.0,
+        2039.0,
+        593.0
+      ],
+      [
+        1971.0,
+        571.0,
+        2001.0,
+        625.0
+      ],
+      [
+        2012.0,
+        596.0,
+        2051.0,
+        653.0
+      ],
+      [
+        1964.0,
+        672.0,
+        1998.0,
+        707.0
+      ],
+      [
+        2034.0,
+        702.0,
+        2066.0,
+        747.0
+      ],
+      [
+        2010.0,
+        743.0,
+        2040.0,
+        773.0
+      ],
+      [
+        2033.0,
+        1135.0,
+        2064.0,
+        1164.0
+      ],
+      [
+        2004.0,
+        1151.0,
+        2025.0,
+        1171.0
+      ],
+      [
+        1985.0,
+        1168.0,
+        2012.0,
+        1201.0
+      ],
+      [
+        2045.0,
+        1177.0,
+        2089.0,
+        1222.0
+      ],
+      [
+        1975.0,
+        1211.0,
+        2010.0,
+        1244.0
+      ],
+      [
+        2043.0,
+        1231.0,
+        2076.0,
+        1264.0
+      ],
+      [
+        1961.0,
+        1261.0,
+        1999.0,
+        1310.0
+      ],
+      [
+        2010.0,
+        1271.0,
+        2036.0,
+        1303.0
+      ],
+      [
+        2038.0,
+        1283.0,
+        2067.0,
+        1316.0
+      ],
+      [
+        1967.0,
+        1319.0,
+        2002.0,
+        1357.0
+      ],
+      [
+        2038.0,
+        1327.0,
+        2070.0,
+        1358.0
+      ],
+      [
+        2007.0,
+        1331.0,
+        2035.0,
+        1359.0
+      ],
+      [
+        1975.0,
+        1368.0,
+        2018.0,
+        1411.0
+      ],
+      [
+        2023.0,
+        1423.0,
+        2062.0,
+        1463.0
+      ],
+      [
+        1974.0,
+        1449.0,
+        2009.0,
+        1492.0
+      ],
+      [
+        1966.0,
+        1504.0,
+        2005.0,
+        1544.0
+      ],
+      [
+        1982.0,
+        1625.0,
+        2029.0,
+        1677.0
+      ],
+      [
+        1949.0,
+        1764.0,
+        1983.0,
+        1811.0
+      ],
+      [
+        1981.0,
+        1796.0,
+        2035.0,
+        1846.0
+      ]
+    ],
+    "support_pixels": 847348,
+    "support_sha256": "8f111a068b87f5464ab94892cc33cbc9d08fed65e7f30d68ca091f9a7cf05518",
+    "n_label_objects": 133,
+    "n_reference_objects": 133
+  },
+  "tiles": 3,
+  "saturated_tiles": [],
+  "warnings": [],
+  "provisional": true,
+  "review_status": "ai_visual_inspection_provisional",
+  "rows": [
+    {
+      "confidence": 0.1,
+      "gt_count": 133,
+      "pred_count": 446,
+      "signed_count_error": 313,
+      "absolute_count_error": 313,
+      "absolute_percentage_error": 235.33834586466165,
+      "tp": 131,
+      "fp": 315,
+      "fn": 2,
+      "precision": 0.2937219730941704,
+      "recall": 0.9849624060150376,
+      "f1": 0.4525043177892919,
+      "center_match": {
+        "tolerance": "0.5 * sqrt(ref_w * ref_h)",
+        "tp": 133,
+        "fp": 313,
+        "fn": 0,
+        "precision": 0.2982062780269058,
+        "recall": 1.0,
+        "f1": 0.459412780656304
+      }
+    },
+    {
+      "confidence": 0.15,
+      "gt_count": 133,
+      "pred_count": 349,
+      "signed_count_error": 216,
+      "absolute_count_error": 216,
+      "absolute_percentage_error": 162.406015037594,
+      "tp": 131,
+      "fp": 218,
+      "fn": 2,
+      "precision": 0.3753581661891118,
+      "recall": 0.9849624060150376,
+      "f1": 0.5435684647302904,
+      "center_match": {
+        "tolerance": "0.5 * sqrt(ref_w * ref_h)",
+        "tp": 133,
+        "fp": 216,
+        "fn": 0,
+        "precision": 0.38108882521489973,
+        "recall": 1.0,
+        "f1": 0.5518672199170125
+      }
+    },
+    {
+      "confidence": 0.2,
+      "gt_count": 133,
+      "pred_count": 309,
+      "signed_count_error": 176,
+      "absolute_count_error": 176,
+      "absolute_percentage_error": 132.33082706766916,
+      "tp": 131,
+      "fp": 178,
+      "fn": 2,
+      "precision": 0.42394822006472493,
+      "recall": 0.9849624060150376,
+      "f1": 0.5927601809954751,
+      "center_match": {
+        "tolerance": "0.5 * sqrt(ref_w * ref_h)",
+        "tp": 133,
+        "fp": 176,
+        "fn": 0,
+        "precision": 0.43042071197411,
+        "recall": 1.0,
+        "f1": 0.6018099547511312
+      }
+    },
+    {
+      "confidence": 0.25,
+      "gt_count": 133,
+      "pred_count": 292,
+      "signed_count_error": 159,
+      "absolute_count_error": 159,
+      "absolute_percentage_error": 119.54887218045113,
+      "tp": 131,
+      "fp": 161,
+      "fn": 2,
+      "precision": 0.4486301369863014,
+      "recall": 0.9849624060150376,
+      "f1": 0.6164705882352941,
+      "center_match": {
+        "tolerance": "0.5 * sqrt(ref_w * ref_h)",
+        "tp": 133,
+        "fp": 159,
+        "fn": 0,
+        "precision": 0.4554794520547945,
+        "recall": 1.0,
+        "f1": 0.6258823529411764
+      }
+    },
+    {
+      "confidence": 0.3,
+      "gt_count": 133,
+      "pred_count": 276,
+      "signed_count_error": 143,
+      "absolute_count_error": 143,
+      "absolute_percentage_error": 107.5187969924812,
+      "tp": 131,
+      "fp": 145,
+      "fn": 2,
+      "precision": 0.4746376811594203,
+      "recall": 0.9849624060150376,
+      "f1": 0.6405867970660146,
+      "center_match": {
+        "tolerance": "0.5 * sqrt(ref_w * ref_h)",
+        "tp": 133,
+        "fp": 143,
+        "fn": 0,
+        "precision": 0.48188405797101447,
+        "recall": 1.0,
+        "f1": 0.6503667481662592
+      }
+    },
+    {
+      "confidence": 0.4,
+      "gt_count": 133,
+      "pred_count": 246,
+      "signed_count_error": 113,
+      "absolute_count_error": 113,
+      "absolute_percentage_error": 84.9624060150376,
+      "tp": 130,
+      "fp": 116,
+      "fn": 3,
+      "precision": 0.5284552845528455,
+      "recall": 0.9774436090225563,
+      "f1": 0.6860158311345647,
+      "center_match": {
+        "tolerance": "0.5 * sqrt(ref_w * ref_h)",
+        "tp": 132,
+        "fp": 114,
+        "fn": 1,
+        "precision": 0.5365853658536586,
+        "recall": 0.9924812030075187,
+        "f1": 0.6965699208443272
+      }
+    },
+    {
+      "confidence": 0.5,
+      "gt_count": 133,
+      "pred_count": 223,
+      "signed_count_error": 90,
+      "absolute_count_error": 90,
+      "absolute_percentage_error": 67.66917293233082,
+      "tp": 130,
+      "fp": 93,
+      "fn": 3,
+      "precision": 0.5829596412556054,
+      "recall": 0.9774436090225563,
+      "f1": 0.7303370786516854,
+      "center_match": {
+        "tolerance": "0.5 * sqrt(ref_w * ref_h)",
+        "tp": 132,
+        "fp": 91,
+        "fn": 1,
+        "precision": 0.5919282511210763,
+        "recall": 0.9924812030075187,
+        "f1": 0.7415730337078652
+      }
+    }
+  ],
+  "selected_confidence": 0.5,
+  "selected": {
+    "confidence": 0.5,
+    "gt_count": 133,
+    "pred_count": 223,
+    "signed_count_error": 90,
+    "absolute_count_error": 90,
+    "absolute_percentage_error": 67.66917293233082,
+    "tp": 130,
+    "fp": 93,
+    "fn": 3,
+    "precision": 0.5829596412556054,
+    "recall": 0.9774436090225563,
+    "f1": 0.7303370786516854,
+    "center_match": {
+      "tolerance": "0.5 * sqrt(ref_w * ref_h)",
+      "tp": 132,
+      "fp": 91,
+      "fn": 1,
+      "precision": 0.5919282511210763,
+      "recall": 0.9924812030075187,
+      "f1": 0.7415730337078652
+    }
+  },
+  "note": "inner validation is one region of the development photo; limited independence"
+}

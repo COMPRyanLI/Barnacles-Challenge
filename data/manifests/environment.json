@@ -1,0 +1,17 @@
+{
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+  "torch": "2.11.0+cu128",
+  "torchvision": "0.26.0+cu128",
+  "torch_cuda": "12.8",
+  "cudnn": 91900,
+  "cuda_available": true,
+  "ultralytics": "8.4.182",
+  "numpy": "2.5.2",
+  "opencv": "5.0.0",
+  "pillow": "12.3.0",
+  "torch_num_threads": 14,
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "gpu_memory_gib": 8.0
+}

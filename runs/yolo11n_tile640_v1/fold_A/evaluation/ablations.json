@@ -1,0 +1,66 @@
+{
+  "fold": "A",
+  "confidence": 0.5,
+  "provisional": true,
+  "note": "inference-only diagnostics with the same trained checkpoint; not separately optimised models",
+  "overlap_640_512": {
+    "tiles": 9,
+    "timings_s": {
+      "prepare_tiles": 0.012027999997371808,
+      "tile_inference": 2.2290288000003784,
+      "restore_merge_count": 0.00261760000284994
+    },
+    "seam_edge_detections": 9,
+    "gt_count": 397,
+    "pred_count": 213,
+    "signed_count_error": -184,
+    "absolute_percentage_error": 46.34760705289673,
+    "tp": 154,
+    "fp": 59,
+    "fn": 243,
+    "precision": 0.7230046948356808,
+    "recall": 0.3879093198992443,
+    "f1": 0.5049180327868853
+  },
+  "no_overlap_640": {
+    "tiles": 9,
+    "timings_s": {
+      "prepare_tiles": 0.013879600002837833,
+      "tile_inference": 0.06653929999447428,
+      "restore_merge_count": 0.0021272000012686476
+    },
+    "seam_edge_detections": 9,
+    "gt_count": 397,
+    "pred_count": 168,
+    "signed_count_error": -229,
+    "absolute_percentage_error": 57.68261964735516,
+    "tp": 120,
+    "fp": 48,
+    "fn": 277,
+    "precision": 0.7142857142857143,
+    "recall": 0.3022670025188917,
+    "f1": 0.4247787610619469
+  },
+  "single_resized_roi_640": {
+    "tiles": 1,
+    "timings_s": {
+      "prepare_tiles": 0.009913799993228167,
+      "tile_inference": 0.09673509999993257,
+      "restore_merge_count": 0.003506600005493965
+    },
+    "region_wh": [
+      1630,
+      1642
+    ],
+    "gt_count": 397,
+    "pred_count": 284,
+    "signed_count_error": -113,
+    "absolute_percentage_error": 28.463476070528966,
+    "tp": 200,
+    "fp": 84,
+    "fn": 197,
+    "precision": 0.704225352112676,
+    "recall": 0.5037783375314862,
+    "f1": 0.5873715124816447
+  }
+}

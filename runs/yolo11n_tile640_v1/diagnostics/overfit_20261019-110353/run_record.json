@@ -1,0 +1,1053 @@
+{
+  "created": "2026-10-19T11:07:10+08:00",
+  "run_dir": "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\runs\\yolo11n_tile640_v1\\diagnostics\\overfit_20261019-110353",
+  "dataset_yaml": "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\data\\processed\\overfit\\dataset.yaml",
+  "label_check": {
+    "train": {
+      "images": 4,
+      "instances": 1375
+    },
+    "val": {
+      "images": 4,
+      "instances": 1375
+    }
+  },
+  "pretrained": {
+    "path": "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\weights\\yolo11n.pt",
+    "sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1"
+  },
+  "requested_args": {
+    "imgsz": 640,
+    "epochs": 200,
+    "patience": 0,
+    "batch": 4,
+    "nbs": 4,
+    "optimizer": "AdamW",
+    "lr0": 0.0001,
+    "lrf": 0.1,
+    "weight_decay": 0.0005,
+    "warmup_epochs": 3.0,
+    "warmup_bias_lr": 0.0,
+    "cos_lr": true,
+    "freeze": null,
+    "seed": 42,
+    "deterministic": true,
+    "workers": 0,
+    "rect": false,
+    "cache": false,
+    "amp": true,
+    "val": false,
+    "save": true,
+    "plots": false,
+    "max_det": 2000,
+    "fliplr": 0.0,
+    "flipud": 0.0,
+    "degrees": 0.0,
+    "translate": 0.0,
+    "scale": 0.0,
+    "shear": 0.0,
+    "perspective": 0.0,
+    "hsv_h": 0.0,
+    "hsv_s": 0.0,
+    "hsv_v": 0.0,
+    "mosaic": 0.0,
+    "mixup": 0.0,
+    "copy_paste": 0.0,
+    "multi_scale": false
+  },
+  "resolved_args": {
+    "task": "detect",
+    "mode": "train",
+    "model": "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\weights\\yolo11n.pt",
+    "data": "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\data\\processed\\overfit\\dataset.yaml",
+    "epochs": 200,
+    "time": null,
+    "patience": 0,
+    "batch": 4,
+    "imgsz": 640,
+    "save": true,
+    "save_period": -1,
+    "cache": false,
+    "device": "0",
+    "workers": 0,
+    "project": "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\runs\\yolo11n_tile640_v1\\diagnostics",
+    "name": "overfit_20261019-110353",
+    "exist_ok": false,
+    "pretrained": true,
+    "cls_remap": true,
+    "optimizer": "AdamW",
+    "verbose": true,
+    "seed": 42,
+    "deterministic": true,
+    "single_cls": false,
+    "rect": false,
+    "cos_lr": true,
+    "close_mosaic": 10,
+    "resume": false,
+    "amp": true,
+    "fraction": 1.0,
+    "profile": false,
+    "freeze": null,
+    "multi_scale": false,
+    "compile": false,
+    "channels_last": null,
+    "overlap_mask": true,
+    "mask_ratio": 4,
+    "dropout": 0.0,
+    "val": false,
+    "split": "val",
+    "save_json": false,
+    "conf": null,
+    "iou": 0.7,
+    "max_det": 2000,
+    "quantize": null,
+    "dnn": false,
+    "plots": false,
+    "nms": null,
+    "source": null,
+    "vid_stride": 1,
+    "stream_buffer": false,
+    "visualize": false,
+    "augment": false,
+    "agnostic_nms": false,
+    "classes": null,
+    "retina_masks": false,
+    "embed": null,
+    "show": false,
+    "save_frames": false,
+    "save_txt": false,
+    "save_conf": false,
+    "save_crop": false,
+    "show_labels": true,
+    "show_conf": true,
+    "show_boxes": true,
+    "line_width": null,
+    "format": "torchscript",
+    "optimize": false,
+    "dynamic": false,
+    "simplify": true,
+    "opset": null,
+    "workspace": null,
+    "lr0": 0.0001,
+    "lrf": 0.1,
+    "momentum": 0.937,
+    "weight_decay": 0.0005,
+    "warmup_epochs": 3.0,
+    "warmup_momentum": 0.8,
+    "warmup_bias_lr": 0.0,
+    "distill_model": null,
+    "dis": 6.0,
+    "box": 7.5,
+    "cls": 0.5,
+    "cls_pw": 0.0,
+    "dfl": 1.5,
+    "pose": 12.0,
+    "kobj": 1.0,
+    "rle": 1.0,
+    "angle": 1.0,
+    "dlog": 1.0,
+    "dgrad": 0.5,
+    "dlam": 1.0,
+    "nbs": 4,
+    "hsv_h": 0.0,
+    "hsv_s": 0.0,
+    "hsv_v": 0.0,
+    "degrees": 0.0,
+    "translate": 0.0,
+    "scale": 0.0,
+    "shear": 0.0,
+    "perspective": 0.0,
+    "flipud": 0.0,
+    "fliplr": 0.0,
+    "bgr": 0.0,
+    "mosaic": 0.0,
+    "mixup": 0.0,
+    "cutmix": 0.0,
+    "copy_paste": 0.0,
+    "copy_paste_mode": "flip",
+    "auto_augment": "randaugment",
+    "erasing": 0.4,
+    "cfg": null,
+    "tracker": "tracktrack.yaml",
+    "save_dir": "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\runs\\yolo11n_tile640_v1\\diagnostics\\overfit_20261019-110353"
+  },
+  "device": "0",
+  "trainer": {
+    "batch_size": 4,
+    "batches_per_epoch": 1,
+    "accumulate": 1,
+    "warmup_iterations": 3,
+    "train_images": 4,
+    "amp": true
+  },
+  "optimizer_steps": 200,
+  "grad_checks": {
+    "finite_steps": 196,
+    "nonfinite_or_zero_steps": 4,
+    "first_grad_norm_scaled": NaN,
+    "amp_skipped_steps": 4,
+    "applied_updates": 196
+  },
+  "epochs_completed": 200,
+  "elapsed_s": 193.36977350000234,
+  "losses_finite": true,
+  "final_losses": {
+    "train/box_loss": 0.07696,
+    "train/cls_loss": 0.16431,
+    "train/dfl_loss": 0.79731,
+    "val/box_loss": 1.15409,
+    "val/cls_loss": 0.64339,
+    "val/dfl_loss": 0.90876
+  },
+  "fitness_definition": "ultralytics 8.4.182 DetMetrics fitness = mAP50-95 on the val split (weights [0,0,0,1])",
+  "best_epoch": 200,
+  "epoch_fitness": [
+    [
+      1,
+      null
+    ],
+    [
+      2,
+      null
+    ],
+    [
+      3,
+      null
+    ],
+    [
+      4,
+      null
+    ],
+    [
+      5,
+      null
+    ],
+    [
+      6,
+      null
+    ],
+    [
+      7,
+      null
+    ],
+    [
+      8,
+      null
+    ],
+    [
+      9,
+      null
+    ],
+    [
+      10,
+      null
+    ],
+    [
+      11,
+      null
+    ],
+    [
+      12,
+      null
+    ],
+    [
+      13,
+      null
+    ],
+    [
+      14,
+      null
+    ],
+    [
+      15,
+      null
+    ],
+    [
+      16,
+      null
+    ],
+    [
+      17,
+      null
+    ],
+    [
+      18,
+      null
+    ],
+    [
+      19,
+      null
+    ],
+    [
+      20,
+      null
+    ],
+    [
+      21,
+      null
+    ],
+    [
+      22,
+      null
+    ],
+    [
+      23,
+      null
+    ],
+    [
+      24,
+      null
+    ],
+    [
+      25,
+      null
+    ],
+    [
+      26,
+      null
+    ],
+    [
+      27,
+      null
+    ],
+    [
+      28,
+      null
+    ],
+    [
+      29,
+      null
+    ],
+    [
+      30,
+      null
+    ],
+    [
+      31,
+      null
+    ],
+    [
+      32,
+      null
+    ],
+    [
+      33,
+      null
+    ],
+    [
+      34,
+      null
+    ],
+    [
+      35,
+      null
+    ],
+    [
+      36,
+      null
+    ],
+    [
+      37,
+      null
+    ],
+    [
+      38,
+      null
+    ],
+    [
+      39,
+      null
+    ],
+    [
+      40,
+      null
+    ],
+    [
+      41,
+      null
+    ],
+    [
+      42,
+      null
+    ],
+    [
+      43,
+      null
+    ],
+    [
+      44,
+      null
+    ],
+    [
+      45,
+      null
+    ],
+    [
+      46,
+      null
+    ],
+    [
+      47,
+      null
+    ],
+    [
+      48,
+      null
+    ],
+    [
+      49,
+      null
+    ],
+    [
+      50,
+      null
+    ],
+    [
+      51,
+      null
+    ],
+    [
+      52,
+      null
+    ],
+    [
+      53,
+      null
+    ],
+    [
+      54,
+      null
+    ],
+    [
+      55,
+      null
+    ],
+    [
+      56,
+      null
+    ],
+    [
+      57,
+      null
+    ],
+    [
+      58,
+      null
+    ],
+    [
+      59,
+      null
+    ],
+    [
+      60,
+      null
+    ],
+    [
+      61,
+      null
+    ],
+    [
+      62,
+      null
+    ],
+    [
+      63,
+      null
+    ],
+    [
+      64,
+      null
+    ],
+    [
+      65,
+      null
+    ],
+    [
+      66,
+      null
+    ],
+    [
+      67,
+      null
+    ],
+    [
+      68,
+      null
+    ],
+    [
+      69,
+      null
+    ],
+    [
+      70,
+      null
+    ],
+    [
+      71,
+      null
+    ],
+    [
+      72,
+      null
+    ],
+    [
+      73,
+      null
+    ],
+    [
+      74,
+      null
+    ],
+    [
+      75,
+      null
+    ],
+    [
+      76,
+      null
+    ],
+    [
+      77,
+      null
+    ],
+    [
+      78,
+      null
+    ],
+    [
+      79,
+      null
+    ],
+    [
+      80,
+      null
+    ],
+    [
+      81,
+      null
+    ],
+    [
+      82,
+      null
+    ],
+    [
+      83,
+      null
+    ],
+    [
+      84,
+      null
+    ],
+    [
+      85,
+      null
+    ],
+    [
+      86,
+      null
+    ],
+    [
+      87,
+      null
+    ],
+    [
+      88,
+      null
+    ],
+    [
+      89,
+      null
+    ],
+    [
+      90,
+      null
+    ],
+    [
+      91,
+      null
+    ],
+    [
+      92,
+      null
+    ],
+    [
+      93,
+      null
+    ],
+    [
+      94,
+      null
+    ],
+    [
+      95,
+      null
+    ],
+    [
+      96,
+      null
+    ],
+    [
+      97,
+      null
+    ],
+    [
+      98,
+      null
+    ],
+    [
+      99,
+      null
+    ],
+    [
+      100,
+      null
+    ],
+    [
+      101,
+      null
+    ],
+    [
+      102,
+      null
+    ],
+    [
+      103,
+      null
+    ],
+    [
+      104,
+      null
+    ],
+    [
+      105,
+      null
+    ],
+    [
+      106,
+      null
+    ],
+    [
+      107,
+      null
+    ],
+    [
+      108,
+      null
+    ],
+    [
+      109,
+      null
+    ],
+    [
+      110,
+      null
+    ],
+    [
+      111,
+      null
+    ],
+    [
+      112,
+      null
+    ],
+    [
+      113,
+      null
+    ],
+    [
+      114,
+      null
+    ],
+    [
+      115,
+      null
+    ],
+    [
+      116,
+      null
+    ],
+    [
+      117,
+      null
+    ],
+    [
+      118,
+      null
+    ],
+    [
+      119,
+      null
+    ],
+    [
+      120,
+      null
+    ],
+    [
+      121,
+      null
+    ],
+    [
+      122,
+      null
+    ],
+    [
+      123,
+      null
+    ],
+    [
+      124,
+      null
+    ],
+    [
+      125,
+      null
+    ],
+    [
+      126,
+      null
+    ],
+    [
+      127,
+      null
+    ],
+    [
+      128,
+      null
+    ],
+    [
+      129,
+      null
+    ],
+    [
+      130,
+      null
+    ],
+    [
+      131,
+      null
+    ],
+    [
+      132,
+      null
+    ],
+    [
+      133,
+      null
+    ],
+    [
+      134,
+      null
+    ],
+    [
+      135,
+      null
+    ],
+    [
+      136,
+      null
+    ],
+    [
+      137,
+      null
+    ],
+    [
+      138,
+      null
+    ],
+    [
+      139,
+      null
+    ],
+    [
+      140,
+      null
+    ],
+    [
+      141,
+      null
+    ],
+    [
+      142,
+      null
+    ],
+    [
+      143,
+      null
+    ],
+    [
+      144,
+      null
+    ],
+    [
+      145,
+      null
+    ],
+    [
+      146,
+      null
+    ],
+    [
+      147,
+      null
+    ],
+    [
+      148,
+      null
+    ],
+    [
+      149,
+      null
+    ],
+    [
+      150,
+      null
+    ],
+    [
+      151,
+      null
+    ],
+    [
+      152,
+      null
+    ],
+    [
+      153,
+      null
+    ],
+    [
+      154,
+      null
+    ],
+    [
+      155,
+      null
+    ],
+    [
+      156,
+      null
+    ],
+    [
+      157,
+      null
+    ],
+    [
+      158,
+      null
+    ],
+    [
+      159,
+      null
+    ],
+    [
+      160,
+      null
+    ],
+    [
+      161,
+      null
+    ],
+    [
+      162,
+      null
+    ],
+    [
+      163,
+      null
+    ],
+    [
+      164,
+      null
+    ],
+    [
+      165,
+      null
+    ],
+    [
+      166,
+      null
+    ],
+    [
+      167,
+      null
+    ],
+    [
+      168,
+      null
+    ],
+    [
+      169,
+      null
+    ],
+    [
+      170,
+      null
+    ],
+    [
+      171,
+      null
+    ],
+    [
+      172,
+      null
+    ],
+    [
+      173,
+      null
+    ],
+    [
+      174,
+      null
+    ],
+    [
+      175,
+      null
+    ],
+    [
+      176,
+      null
+    ],
+    [
+      177,
+      null
+    ],
+    [
+      178,
+      null
+    ],
+    [
+      179,
+      null
+    ],
+    [
+      180,
+      null
+    ],
+    [
+      181,
+      null
+    ],
+    [
+      182,
+      null
+    ],
+    [
+      183,
+      null
+    ],
+    [
+      184,
+      null
+    ],
+    [
+      185,
+      null
+    ],
+    [
+      186,
+      null
+    ],
+    [
+      187,
+      null
+    ],
+    [
+      188,
+      null
+    ],
+    [
+      189,
+      null
+    ],
+    [
+      190,
+      null
+    ],
+    [
+      191,
+      null
+    ],
+    [
+      192,
+      null
+    ],
+    [
+      193,
+      null
+    ],
+    [
+      194,
+      null
+    ],
+    [
+      195,
+      null
+    ],
+    [
+      196,
+      null
+    ],
+    [
+      197,
+      null
+    ],
+    [
+      198,
+      null
+    ],
+    [
+      199,
+      null
+    ],
+    [
+      200,
+      0.54232
+    ]
+  ],
+  "best_epoch_crosscheck_ok": true,
+  "checkpoints": {
+    "best": {
+      "path": "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\runs\\yolo11n_tile640_v1\\diagnostics\\overfit_20261019-110353\\weights\\best.pt",
+      "sha256": "19affd8cf9c1a559be1016fbba64b42901d105c9735f9defdd4cf75fd9ef1a15",
+      "epochs_in_results": 200,
+      "fitness_at_save": 0.54232
+    },
+    "last": {
+      "path": "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\runs\\yolo11n_tile640_v1\\diagnostics\\overfit_20261019-110353\\weights\\last.pt",
+      "sha256": "19affd8cf9c1a559be1016fbba64b42901d105c9735f9defdd4cf75fd9ef1a15",
+      "epochs_in_results": 200,
+      "fitness_at_save": 0.54232
+    }
+  },
+  "criterion": {
+    "class": "v8DetectionLoss",
+    "box_gain": 7.5,
+    "cls_gain": 0.5,
+    "dfl_gain": 1.5
+  },
+  "parameters_changed": true,
+  "model_names": {
+    "0": "barnacle_target"
+  },
+  "reload_ok": true,
+  "warnings": [],
+  "nondeterministic_ops": [],
+  "environment": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.22631-SP0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "torch_cuda": "12.8",
+    "cudnn": 91900,
+    "cuda_available": true,
+    "ultralytics": "8.4.182",
+    "numpy": "2.5.2",
+    "opencv": "5.0.0",
+    "pillow": "12.3.0",
+    "torch_num_threads": 14,
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "gpu_memory_gib": 8.0
+  },
+  "purpose": "overfit diagnostic on training tiles; never used for evaluation",
+  "init_checkpoint": "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\runs\\yolo11n_tile640_v1\\diagnostics\\overfit_20261019-110353\\weights\\init_untrained.pt"
+}

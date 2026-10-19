@@ -1,0 +1,128 @@
+{
+  "warning": "Connected contour components are NOT verified barnacle counts. Touching outlines can merge; broken outlines can fragment.",
+  "images": [
+    {
+      "file": "img1.png",
+      "width": 3264,
+      "height": 2448,
+      "mode": "RGBA"
+    },
+    {
+      "file": "img2.png",
+      "width": 3264,
+      "height": 2448,
+      "mode": "RGB"
+    },
+    {
+      "file": "mask1.png",
+      "width": 3264,
+      "height": 2448,
+      "mode": "RGBA"
+    },
+    {
+      "file": "mask2.png",
+      "width": 3264,
+      "height": 2448,
+      "mode": "RGBA"
+    },
+    {
+      "file": "masked_img1.png",
+      "width": 1449,
+      "height": 1453,
+      "mode": "RGBA"
+    },
+    {
+      "file": "masked_img2.png",
+      "width": 1691,
+      "height": 1701,
+      "mode": "RGBA"
+    },
+    {
+      "file": "unseen_img1.png",
+      "width": 3264,
+      "height": 2448,
+      "mode": "RGB"
+    },
+    {
+      "file": "unseen_img2.png",
+      "width": 500,
+      "height": 500,
+      "mode": "RGB"
+    }
+  ],
+  "masks": {
+    "mask1.png": {
+      "foreground_pixels": 310983,
+      "foreground_rgba_counts": [
+        {
+          "rgba": [
+            39,
+            57,
+            191,
+            255
+          ],
+          "pixels": 199224
+        },
+        {
+          "rgba": [
+            59,
+            76,
+            160,
+            255
+          ],
+          "pixels": 111759
+        }
+      ],
+      "raw_connected_components": 1747,
+      "width_percentiles_10_50_90": [
+        13.0,
+        21.0,
+        30.40000000000009
+      ],
+      "height_percentiles_10_50_90": [
+        13.0,
+        22.0,
+        32.0
+      ],
+      "components_under_10_pixels": 29,
+      "foreground_bbox_xyxy": [
+        1124,
+        461,
+        2551,
+        1924
+      ]
+    },
+    "mask2.png": {
+      "foreground_pixels": 286241,
+      "foreground_rgba_counts": [
+        {
+          "rgba": [
+            39,
+            57,
+            191,
+            255
+          ],
+          "pixels": 286241
+        }
+      ],
+      "raw_connected_components": 521,
+      "width_percentiles_10_50_90": [
+        1.0,
+        35.0,
+        47.0
+      ],
+      "height_percentiles_10_50_90": [
+        1.0,
+        37.0,
+        51.0
+      ],
+      "components_under_10_pixels": 124,
+      "foreground_bbox_xyxy": [
+        944,
+        228,
+        3212,
+        1953
+      ]
+    }
+  }
+}

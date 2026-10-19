@@ -1,0 +1,35 @@
+{
+  "img1": {
+    "ok": true,
+    "errors": [],
+    "warnings": [],
+    "review_status": "ai_visual_inspection_provisional",
+    "n_candidates": 1747,
+    "n_objects": 1732,
+    "operations": {
+      "split": 14,
+      "keep": 2,
+      "delete_artifact": 1
+    },
+    "object_status": {
+      "unreviewed_candidate": 1670,
+      "ai_reviewed": 62
+    }
+  },
+  "img2": {
+    "ok": true,
+    "errors": [],
+    "warnings": [],
+    "review_status": "ai_visual_inspection_provisional",
+    "n_candidates": 521,
+    "n_objects": 397,
+    "operations": {
+      "keep": 2,
+      "delete_artifact": 1
+    },
+    "object_status": {
+      "unreviewed_candidate": 394,
+      "ai_reviewed": 3
+    }
+  }
+}

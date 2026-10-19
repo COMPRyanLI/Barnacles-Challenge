@@ -1,0 +1,115 @@
+# Barnacle detection experiment configuration.
+# Training/inference numbers are starting settings from docs/CLAUDE_CODE_IMPLEMENTATION_PLAN.md,
+# not validated optima. Relative paths resolve against the repository root.
+
+experiment_id: yolo11n_tile640_v1
+seed: 42
+class_names: [barnacle_target]
+
+paths:
+  raw_dir: Barnacles/Barnacles
+  annotations_dir: data/annotations
+  manifests_dir: data/manifests
+  processed_dir: data/processed
+  runs_dir: runs
+  reports_dir: reports
+  pretrained_weights: weights/yolo11n.pt
+
+sources:
+  img1: {image: img1.png, mask: mask1.png, role: labeled}
+  img2: {image: img2.png, mask: mask2.png, role: labeled}
+  unseen_img1: {image: unseen_img1.png, role: unlabeled_demo}
+  unseen_img2: {image: unseen_img2.png, role: unlabeled_demo}
+  masked_img1: {image: masked_img1.png, role: reference_only}
+  masked_img2: {image: masked_img2.png, role: reference_only}
+
+labels:
+  annotation_version: v1-provisional
+  # Review flags only; nothing is discarded by these thresholds.
+  tiny_area_px: 10
+  thin_aspect_ratio: 3.0
+  large_side_factor: 2.5
+  min_hole_area_px: 5     # pinholes inside thick strokes are not ring interiors
+  thin_clip_px: 4.0
+
+tiles:
+  size: 640
+  stride: 512
+  pad_value: 114
+
+folds:
+  A: {dev: img1, heldout: img2}
+  B: {dev: img2, heldout: img1}
+
+inner_split:
+  train_fraction: 0.65   # left part of the ROI bounding rectangle
+  gap_px: 64             # unused vertical band centred on the split line
+  max_masked_fraction_of_retained: 0.5
+
+train:
+  imgsz: 640
+  epochs: 80
+  patience: 20
+  batch: 8
+  nbs: 8
+  optimizer: AdamW
+  lr0: 0.0001
+  lrf: 0.1
+  weight_decay: 0.0005
+  warmup_epochs: 3.0
+  warmup_bias_lr: 0.0
+  cos_lr: true
+  freeze: null
+  seed: 42
+  deterministic: true
+  workers: 0
+  rect: false
+  cache: false
+  amp: true
+  val: true
+  save: true
+  plots: true
+  max_det: 2000
+  fliplr: 0.5
+  flipud: 0.5
+  degrees: 0.0
+  translate: 0.05
+  scale: 0.10
+  shear: 0.0
+  perspective: 0.0
+  hsv_h: 0.01
+  hsv_s: 0.20
+  hsv_v: 0.20
+  mosaic: 0.0
+  mixup: 0.0
+  copy_paste: 0.0
+  multi_scale: false
+
+smoke:
+  epochs: 1
+  max_tiles: 4
+overfit:
+  max_tiles: 4
+  max_updates: 200     # cap from plan section 8.3; same lr0 as train, augmentations off
+
+inference:
+  candidate_conf: 0.05
+  local_nms_iou: 0.5
+  global_nms_iou: 0.5
+  max_det: 2000
+  batch: 8
+  half: false
+  threshold_grid: [0.10, 0.15, 0.20, 0.25, 0.30, 0.40, 0.50]
+  fixed_sensitivity_conf: 0.25
+
+evaluation:
+  match_iou: 0.5
+  center_tolerance_factor: 0.5
+  seam_band_px: 32
+
+benchmark:
+  warmup_runs: 3
+  timed_runs: 10
+
+final:
+  run_name: final

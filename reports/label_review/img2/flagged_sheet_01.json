@@ -1,0 +1,1042 @@
+[
+  {
+    "panel": 1,
+    "candidate_id": "img2_c000044",
+    "bbox_xyxy": [
+      1761.0,
+      322.0,
+      1806.0,
+      360.0
+    ],
+    "flags": [
+      "multi_ring"
+    ]
+  },
+  {
+    "panel": 2,
+    "candidate_id": "img2_c000061",
+    "bbox_xyxy": [
+      1500.0,
+      357.0,
+      1544.0,
+      419.0
+    ],
+    "flags": [
+      "multi_ring"
+    ]
+  },
+  {
+    "panel": 3,
+    "candidate_id": "img2_c000256",
+    "bbox_xyxy": [
+      960.0,
+      839.0,
+      1003.0,
+      876.0
+    ],
+    "flags": [
+      "open_contour"
+    ]
+  },
+  {
+    "panel": 4,
+    "candidate_id": "img2_c000004",
+    "bbox_xyxy": [
+      1106.0,
+      241.0,
+      1107.0,
+      242.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 5,
+    "candidate_id": "img2_c000008",
+    "bbox_xyxy": [
+      1827.0,
+      245.0,
+      1828.0,
+      246.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 6,
+    "candidate_id": "img2_c000016",
+    "bbox_xyxy": [
+      983.0,
+      270.0,
+      984.0,
+      271.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 7,
+    "candidate_id": "img2_c000017",
+    "bbox_xyxy": [
+      2526.0,
+      272.0,
+      2527.0,
+      273.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 8,
+    "candidate_id": "img2_c000023",
+    "bbox_xyxy": [
+      1233.0,
+      283.0,
+      1234.0,
+      284.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 9,
+    "candidate_id": "img2_c000030",
+    "bbox_xyxy": [
+      1614.0,
+      302.0,
+      1615.0,
+      303.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 10,
+    "candidate_id": "img2_c000032",
+    "bbox_xyxy": [
+      1897.0,
+      306.0,
+      1898.0,
+      307.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 11,
+    "candidate_id": "img2_c000035",
+    "bbox_xyxy": [
+      1108.0,
+      309.0,
+      1109.0,
+      310.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 12,
+    "candidate_id": "img2_c000041",
+    "bbox_xyxy": [
+      1338.0,
+      319.0,
+      1339.0,
+      320.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 13,
+    "candidate_id": "img2_c000046",
+    "bbox_xyxy": [
+      1906.0,
+      332.0,
+      1907.0,
+      333.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 14,
+    "candidate_id": "img2_c000051",
+    "bbox_xyxy": [
+      2198.0,
+      344.0,
+      2199.0,
+      345.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 15,
+    "candidate_id": "img2_c000062",
+    "bbox_xyxy": [
+      2191.0,
+      360.0,
+      2192.0,
+      361.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 16,
+    "candidate_id": "img2_c000067",
+    "bbox_xyxy": [
+      1033.0,
+      373.0,
+      1034.0,
+      374.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 17,
+    "candidate_id": "img2_c000068",
+    "bbox_xyxy": [
+      1644.0,
+      376.0,
+      1645.0,
+      377.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 18,
+    "candidate_id": "img2_c000070",
+    "bbox_xyxy": [
+      2198.0,
+      379.0,
+      2199.0,
+      380.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 19,
+    "candidate_id": "img2_c000072",
+    "bbox_xyxy": [
+      2443.0,
+      383.0,
+      2444.0,
+      384.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 20,
+    "candidate_id": "img2_c000075",
+    "bbox_xyxy": [
+      2167.0,
+      396.0,
+      2168.0,
+      397.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 21,
+    "candidate_id": "img2_c000082",
+    "bbox_xyxy": [
+      1132.0,
+      408.0,
+      1133.0,
+      409.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 22,
+    "candidate_id": "img2_c000088",
+    "bbox_xyxy": [
+      1566.0,
+      415.0,
+      1567.0,
+      416.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 23,
+    "candidate_id": "img2_c000093",
+    "bbox_xyxy": [
+      2343.0,
+      421.0,
+      2344.0,
+      422.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 24,
+    "candidate_id": "img2_c000094",
+    "bbox_xyxy": [
+      2284.0,
+      427.0,
+      2285.0,
+      428.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 25,
+    "candidate_id": "img2_c000098",
+    "bbox_xyxy": [
+      1731.0,
+      434.0,
+      1732.0,
+      435.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 26,
+    "candidate_id": "img2_c000099",
+    "bbox_xyxy": [
+      1284.0,
+      438.0,
+      1285.0,
+      439.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 27,
+    "candidate_id": "img2_c000105",
+    "bbox_xyxy": [
+      2537.0,
+      449.0,
+      2538.0,
+      450.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 28,
+    "candidate_id": "img2_c000107",
+    "bbox_xyxy": [
+      2524.0,
+      452.0,
+      2525.0,
+      453.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 29,
+    "candidate_id": "img2_c000110",
+    "bbox_xyxy": [
+      2426.0,
+      459.0,
+      2427.0,
+      460.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 30,
+    "candidate_id": "img2_c000115",
+    "bbox_xyxy": [
+      1732.0,
+      466.0,
+      1733.0,
+      467.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 31,
+    "candidate_id": "img2_c000119",
+    "bbox_xyxy": [
+      1051.0,
+      487.0,
+      1052.0,
+      488.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 32,
+    "candidate_id": "img2_c000122",
+    "bbox_xyxy": [
+      1803.0,
+      491.0,
+      1804.0,
+      492.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 33,
+    "candidate_id": "img2_c000123",
+    "bbox_xyxy": [
+      1626.0,
+      496.0,
+      1627.0,
+      497.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 34,
+    "candidate_id": "img2_c000129",
+    "bbox_xyxy": [
+      1662.0,
+      511.0,
+      1663.0,
+      512.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 35,
+    "candidate_id": "img2_c000130",
+    "bbox_xyxy": [
+      1668.0,
+      511.0,
+      1669.0,
+      512.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 36,
+    "candidate_id": "img2_c000135",
+    "bbox_xyxy": [
+      1350.0,
+      526.0,
+      1351.0,
+      527.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 37,
+    "candidate_id": "img2_c000138",
+    "bbox_xyxy": [
+      2559.0,
+      530.0,
+      2560.0,
+      531.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 38,
+    "candidate_id": "img2_c000139",
+    "bbox_xyxy": [
+      1684.0,
+      534.0,
+      1685.0,
+      535.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 39,
+    "candidate_id": "img2_c000141",
+    "bbox_xyxy": [
+      2488.0,
+      536.0,
+      2489.0,
+      537.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 40,
+    "candidate_id": "img2_c000142",
+    "bbox_xyxy": [
+      1387.0,
+      537.0,
+      1388.0,
+      538.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 41,
+    "candidate_id": "img2_c000144",
+    "bbox_xyxy": [
+      1382.0,
+      545.0,
+      1383.0,
+      546.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 42,
+    "candidate_id": "img2_c000146",
+    "bbox_xyxy": [
+      1994.0,
+      554.0,
+      1995.0,
+      555.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 43,
+    "candidate_id": "img2_c000160",
+    "bbox_xyxy": [
+      1748.0,
+      589.0,
+      1749.0,
+      590.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 44,
+    "candidate_id": "img2_c000161",
+    "bbox_xyxy": [
+      2000.0,
+      590.0,
+      2001.0,
+      591.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 45,
+    "candidate_id": "img2_c000165",
+    "bbox_xyxy": [
+      1139.0,
+      600.0,
+      1140.0,
+      601.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 46,
+    "candidate_id": "img2_c000167",
+    "bbox_xyxy": [
+      1022.0,
+      601.0,
+      1023.0,
+      602.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 47,
+    "candidate_id": "img2_c000168",
+    "bbox_xyxy": [
+      1382.0,
+      605.0,
+      1383.0,
+      606.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 48,
+    "candidate_id": "img2_c000170",
+    "bbox_xyxy": [
+      1668.0,
+      619.0,
+      1669.0,
+      620.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 49,
+    "candidate_id": "img2_c000174",
+    "bbox_xyxy": [
+      1880.0,
+      636.0,
+      1881.0,
+      637.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 50,
+    "candidate_id": "img2_c000181",
+    "bbox_xyxy": [
+      1155.0,
+      649.0,
+      1156.0,
+      650.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 51,
+    "candidate_id": "img2_c000183",
+    "bbox_xyxy": [
+      1878.0,
+      649.0,
+      1879.0,
+      650.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 52,
+    "candidate_id": "img2_c000185",
+    "bbox_xyxy": [
+      1170.0,
+      661.0,
+      1171.0,
+      662.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 53,
+    "candidate_id": "img2_c000191",
+    "bbox_xyxy": [
+      1606.0,
+      682.0,
+      1607.0,
+      683.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 54,
+    "candidate_id": "img2_c000195",
+    "bbox_xyxy": [
+      1009.0,
+      695.0,
+      1010.0,
+      696.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 55,
+    "candidate_id": "img2_c000198",
+    "bbox_xyxy": [
+      1983.0,
+      707.0,
+      1984.0,
+      708.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 56,
+    "candidate_id": "img2_c000207",
+    "bbox_xyxy": [
+      1024.0,
+      724.0,
+      1025.0,
+      725.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 57,
+    "candidate_id": "img2_c000210",
+    "bbox_xyxy": [
+      1209.0,
+      734.0,
+      1210.0,
+      735.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 58,
+    "candidate_id": "img2_c000215",
+    "bbox_xyxy": [
+      1883.0,
+      755.0,
+      1884.0,
+      757.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 59,
+    "candidate_id": "img2_c000232",
+    "bbox_xyxy": [
+      1224.0,
+      792.0,
+      1225.0,
+      793.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 60,
+    "candidate_id": "img2_c000236",
+    "bbox_xyxy": [
+      1530.0,
+      795.0,
+      1531.0,
+      796.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 61,
+    "candidate_id": "img2_c000238",
+    "bbox_xyxy": [
+      1294.0,
+      797.0,
+      1295.0,
+      798.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 62,
+    "candidate_id": "img2_c000240",
+    "bbox_xyxy": [
+      1899.0,
+      799.0,
+      1900.0,
+      800.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 63,
+    "candidate_id": "img2_c000250",
+    "bbox_xyxy": [
+      1247.0,
+      823.0,
+      1248.0,
+      824.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 64,
+    "candidate_id": "img2_c000258",
+    "bbox_xyxy": [
+      960.0,
+      841.0,
+      961.0,
+      842.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 65,
+    "candidate_id": "img2_c000259",
+    "bbox_xyxy": [
+      2068.0,
+      841.0,
+      2069.0,
+      842.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 66,
+    "candidate_id": "img2_c000263",
+    "bbox_xyxy": [
+      2336.0,
+      849.0,
+      2337.0,
+      850.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 67,
+    "candidate_id": "img2_c000268",
+    "bbox_xyxy": [
+      2285.0,
+      870.0,
+      2286.0,
+      871.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 68,
+    "candidate_id": "img2_c000271",
+    "bbox_xyxy": [
+      1514.0,
+      879.0,
+      1516.0,
+      880.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 69,
+    "candidate_id": "img2_c000280",
+    "bbox_xyxy": [
+      1312.0,
+      921.0,
+      1313.0,
+      922.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 70,
+    "candidate_id": "img2_c000285",
+    "bbox_xyxy": [
+      1264.0,
+      931.0,
+      1265.0,
+      932.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 71,
+    "candidate_id": "img2_c000288",
+    "bbox_xyxy": [
+      1876.0,
+      938.0,
+      1877.0,
+      939.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 72,
+    "candidate_id": "img2_c000290",
+    "bbox_xyxy": [
+      1426.0,
+      940.0,
+      1427.0,
+      941.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 73,
+    "candidate_id": "img2_c000291",
+    "bbox_xyxy": [
+      1159.0,
+      946.0,
+      1160.0,
+      947.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 74,
+    "candidate_id": "img2_c000297",
+    "bbox_xyxy": [
+      1150.0,
+      970.0,
+      1151.0,
+      971.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 75,
+    "candidate_id": "img2_c000301",
+    "bbox_xyxy": [
+      2374.0,
+      990.0,
+      2375.0,
+      991.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 76,
+    "candidate_id": "img2_c000304",
+    "bbox_xyxy": [
+      1347.0,
+      998.0,
+      1348.0,
+      999.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 77,
+    "candidate_id": "img2_c000308",
+    "bbox_xyxy": [
+      1139.0,
+      1014.0,
+      1140.0,
+      1015.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 78,
+    "candidate_id": "img2_c000309",
+    "bbox_xyxy": [
+      1155.0,
+      1017.0,
+      1156.0,
+      1018.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 79,
+    "candidate_id": "img2_c000311",
+    "bbox_xyxy": [
+      1336.0,
+      1017.0,
+      1337.0,
+      1018.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  },
+  {
+    "panel": 80,
+    "candidate_id": "img2_c000314",
+    "bbox_xyxy": [
+      1182.0,
+      1027.0,
+      1183.0,
+      1028.0
+    ],
+    "flags": [
+      "tiny"
+    ]
+  }
+]

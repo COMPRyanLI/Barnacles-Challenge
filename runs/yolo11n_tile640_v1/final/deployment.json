@@ -1,0 +1,34 @@
+{
+  "checkpoint": "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\runs\\yolo11n_tile640_v1\\final\\weights\\last.pt",
+  "checkpoint_sha256": "71eb2a91d2a623409bfbddd5920dabf04f364805c33d6bb3597b92d34ce2c87d",
+  "confidence": 0.5,
+  "confidence_rule": "median of the two inner-validation selected thresholds (provisional heuristic; refitting changes score calibration)",
+  "outer_fold_thresholds": [
+    0.5,
+    0.5
+  ],
+  "epochs": 69,
+  "inference": {
+    "candidate_conf": 0.05,
+    "local_nms_iou": 0.5,
+    "global_nms_iou": 0.5,
+    "max_det": 2000,
+    "batch": 8,
+    "half": false,
+    "threshold_grid": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.4,
+      0.5
+    ],
+    "fixed_sensitivity_conf": 0.25
+  },
+  "tiles": {
+    "size": 640,
+    "stride": 512,
+    "pad_value": 114
+  }
+}

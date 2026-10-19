@@ -1,0 +1,2197 @@
+{
+  "image": "unseen_img2.png",
+  "image_id": "unseen_img2",
+  "image_sha256": "1b43c24fdeb612ea01903f948f0be9b7c0c5b72f90c75127c5be4bfc2f5864cf",
+  "checkpoint": "runs/yolo11n_tile640_v1/final/weights/last.pt",
+  "checkpoint_sha256": "71eb2a91d2a623409bfbddd5920dabf04f364805c33d6bb3597b92d34ce2c87d",
+  "status": "demonstration: no reference labels exist for this image; the count is not an accuracy measurement",
+  "region_note": "whole image (close-up; no frame, no physical area implied)",
+  "confidence_threshold": 0.5,
+  "count": 133,
+  "count_rule": "box centre inside or on the region polygon (and inside reviewed support)",
+  "n_detections_at_threshold": 133,
+  "merge": {
+    "raw_tile_detections": 133,
+    "after_global_nms": 133
+  },
+  "tiles": 1,
+  "saturated_tiles": [],
+  "warnings": [],
+  "timings_s": {
+    "load_and_region": 0.022102700000687037,
+    "prepare_tiles": 0.0005416000058175996,
+    "tile_inference": 2.140431100000569,
+    "restore_merge_count": 0.000810499994258862
+  },
+  "region": {
+    "image_id": "unseen_img2",
+    "name": "whole_image",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        500.0,
+        0.0
+      ],
+      [
+        500.0,
+        500.0
+      ],
+      [
+        0.0,
+        500.0
+      ]
+    ],
+    "crop_rect": [
+      0,
+      0,
+      500,
+      500
+    ],
+    "support_pixels": 250000
+  },
+  "settings": {
+    "tile": {
+      "size": 640,
+      "stride": 512,
+      "pad_value": 114
+    },
+    "candidate_conf": 0.05,
+    "local_nms_iou": 0.5,
+    "global_nms_iou": 0.5,
+    "max_det": 2000
+  },
+  "score_note": "confidence scores are model scores, not calibrated probabilities",
+  "detections": [
+    {
+      "bbox_xyxy": [
+        476.315,
+        206.585,
+        498.782,
+        237.197
+      ],
+      "center": [
+        487.548,
+        221.891
+      ],
+      "confidence": 0.92168,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        269.318,
+        269.31,
+        309.564,
+        311.149
+      ],
+      "center": [
+        289.441,
+        290.23
+      ],
+      "confidence": 0.91265,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        0.052,
+        307.622,
+        21.84,
+        355.903
+      ],
+      "center": [
+        10.946,
+        331.763
+      ],
+      "confidence": 0.90905,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        440.539,
+        309.881,
+        469.913,
+        352.185
+      ],
+      "center": [
+        455.226,
+        331.033
+      ],
+      "confidence": 0.90606,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        245.48,
+        403.084,
+        281.715,
+        447.362
+      ],
+      "center": [
+        263.597,
+        425.223
+      ],
+      "confidence": 0.90226,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        195.407,
+        72.05,
+        218.392,
+        101.217
+      ],
+      "center": [
+        206.9,
+        86.634
+      ],
+      "confidence": 0.90203,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        431.254,
+        253.803,
+        452.539,
+        277.094
+      ],
+      "center": [
+        441.896,
+        265.449
+      ],
+      "confidence": 0.89734,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        380.547,
+        58.126,
+        406.885,
+        89.318
+      ],
+      "center": [
+        393.716,
+        73.722
+      ],
+      "confidence": 0.89667,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        252.515,
+        75.904,
+        277.754,
+        105.501
+      ],
+      "center": [
+        265.134,
+        90.703
+      ],
+      "confidence": 0.89428,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        105.201,
+        359.692,
+        128.767,
+        396.775
+      ],
+      "center": [
+        116.984,
+        378.234
+      ],
+      "confidence": 0.89422,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        2.724,
+        393.248,
+        30.207,
+        430.923
+      ],
+      "center": [
+        16.466,
+        412.086
+      ],
+      "confidence": 0.89335,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        383.133,
+        263.1,
+        421.893,
+        303.662
+      ],
+      "center": [
+        402.513,
+        283.381
+      ],
+      "confidence": 0.89293,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        49.718,
+        56.312,
+        73.242,
+        87.836
+      ],
+      "center": [
+        61.48,
+        72.074
+      ],
+      "confidence": 0.89038,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        74.293,
+        401.147,
+        96.834,
+        435.515
+      ],
+      "center": [
+        85.563,
+        418.331
+      ],
+      "confidence": 0.88884,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        458.47,
+        363.326,
+        497.307,
+        416.395
+      ],
+      "center": [
+        477.888,
+        389.861
+      ],
+      "confidence": 0.88745,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        379.322,
+        144.105,
+        404.205,
+        170.017
+      ],
+      "center": [
+        391.764,
+        157.061
+      ],
+      "confidence": 0.88501,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        195.029,
+        3.878,
+        220.756,
+        39.958
+      ],
+      "center": [
+        207.892,
+        21.918
+      ],
+      "confidence": 0.88066,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        286.244,
+        59.227,
+        315.199,
+        95.157
+      ],
+      "center": [
+        300.721,
+        77.192
+      ],
+      "confidence": 0.87847,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        355.51,
+        98.699,
+        395.067,
+        136.838
+      ],
+      "center": [
+        375.289,
+        117.768
+      ],
+      "confidence": 0.87655,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        105.771,
+        46.808,
+        144.036,
+        84.515
+      ],
+      "center": [
+        124.904,
+        65.661
+      ],
+      "confidence": 0.87409,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        40.281,
+        413.517,
+        68.424,
+        452.888
+      ],
+      "center": [
+        54.353,
+        433.203
+      ],
+      "confidence": 0.87306,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        176.161,
+        155.253,
+        209.234,
+        180.241
+      ],
+      "center": [
+        192.698,
+        167.747
+      ],
+      "confidence": 0.87107,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        31.481,
+        322.544,
+        59.869,
+        356.551
+      ],
+      "center": [
+        45.675,
+        339.548
+      ],
+      "confidence": 0.87012,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        224.531,
+        149.871,
+        255.161,
+        188.876
+      ],
+      "center": [
+        239.846,
+        169.373
+      ],
+      "confidence": 0.86976,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        41.205,
+        463.262,
+        67.42,
+        498.174
+      ],
+      "center": [
+        54.313,
+        480.718
+      ],
+      "confidence": 0.86938,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        242.448,
+        110.656,
+        272.128,
+        142.462
+      ],
+      "center": [
+        257.288,
+        126.559
+      ],
+      "confidence": 0.86883,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        53.197,
+        380.581,
+        74.263,
+        410.194
+      ],
+      "center": [
+        63.73,
+        395.388
+      ],
+      "confidence": 0.86873,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        360.365,
+        187.115,
+        395.954,
+        228.254
+      ],
+      "center": [
+        378.159,
+        207.684
+      ],
+      "confidence": 0.86843,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        232.781,
+        0.0,
+        262.467,
+        38.609
+      ],
+      "center": [
+        247.624,
+        19.305
+      ],
+      "confidence": 0.86779,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        150.683,
+        163.317,
+        173.089,
+        188.375
+      ],
+      "center": [
+        161.886,
+        175.846
+      ],
+      "confidence": 0.86741,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        197.384,
+        245.182,
+        230.661,
+        272.225
+      ],
+      "center": [
+        214.022,
+        258.703
+      ],
+      "confidence": 0.86707,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        48.815,
+        99.731,
+        76.924,
+        139.767
+      ],
+      "center": [
+        62.869,
+        119.749
+      ],
+      "confidence": 0.86692,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        347.495,
+        149.409,
+        375.241,
+        177.075
+      ],
+      "center": [
+        361.368,
+        163.242
+      ],
+      "confidence": 0.86681,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        99.135,
+        457.298,
+        128.165,
+        494.48
+      ],
+      "center": [
+        113.65,
+        475.889
+      ],
+      "confidence": 0.86463,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        296.506,
+        413.521,
+        317.877,
+        443.086
+      ],
+      "center": [
+        307.191,
+        428.303
+      ],
+      "confidence": 0.8636,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        272.008,
+        440.992,
+        306.715,
+        477.022
+      ],
+      "center": [
+        289.361,
+        459.007
+      ],
+      "confidence": 0.86346,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        270.502,
+        193.427,
+        305.207,
+        234.677
+      ],
+      "center": [
+        287.855,
+        214.052
+      ],
+      "confidence": 0.86152,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        72.77,
+        143.911,
+        113.445,
+        184.217
+      ],
+      "center": [
+        93.107,
+        164.064
+      ],
+      "confidence": 0.86145,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        12.905,
+        435.396,
+        35.944,
+        462.07
+      ],
+      "center": [
+        24.425,
+        448.733
+      ],
+      "confidence": 0.86139,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        244.592,
+        347.164,
+        287.795,
+        383.597
+      ],
+      "center": [
+        266.193,
+        365.38
+      ],
+      "confidence": 0.85978,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        318.206,
+        76.978,
+        349.884,
+        109.244
+      ],
+      "center": [
+        334.045,
+        93.111
+      ],
+      "confidence": 0.85658,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        262.816,
+        317.354,
+        284.907,
+        341.707
+      ],
+      "center": [
+        273.862,
+        329.531
+      ],
+      "confidence": 0.8563,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        222.553,
+        311.771,
+        257.201,
+        343.369
+      ],
+      "center": [
+        239.877,
+        327.57
+      ],
+      "confidence": 0.85591,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        10.221,
+        59.217,
+        41.165,
+        99.074
+      ],
+      "center": [
+        25.693,
+        79.146
+      ],
+      "confidence": 0.85504,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        147.384,
+        68.988,
+        184.766,
+        116.437
+      ],
+      "center": [
+        166.075,
+        92.713
+      ],
+      "confidence": 0.85183,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        155.823,
+        409.861,
+        180.008,
+        435.221
+      ],
+      "center": [
+        167.915,
+        422.541
+      ],
+      "confidence": 0.85142,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        136.774,
+        466.307,
+        160.15,
+        490.647
+      ],
+      "center": [
+        148.462,
+        478.477
+      ],
+      "confidence": 0.85117,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        286.776,
+        375.118,
+        307.964,
+        404.659
+      ],
+      "center": [
+        297.37,
+        389.889
+      ],
+      "confidence": 0.85107,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        194.465,
+        439.792,
+        229.942,
+        473.335
+      ],
+      "center": [
+        212.203,
+        456.563
+      ],
+      "confidence": 0.85085,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        37.741,
+        285.316,
+        65.245,
+        317.332
+      ],
+      "center": [
+        51.493,
+        301.324
+      ],
+      "confidence": 0.84955,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        243.662,
+        45.529,
+        265.725,
+        71.131
+      ],
+      "center": [
+        254.693,
+        58.33
+      ],
+      "confidence": 0.84895,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        333.564,
+        228.676,
+        355.384,
+        253.425
+      ],
+      "center": [
+        344.474,
+        241.051
+      ],
+      "confidence": 0.84772,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        117.763,
+        118.11,
+        160.936,
+        158.394
+      ],
+      "center": [
+        139.349,
+        138.252
+      ],
+      "confidence": 0.84562,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        120.426,
+        399.299,
+        150.92,
+        437.755
+      ],
+      "center": [
+        135.673,
+        418.527
+      ],
+      "confidence": 0.84456,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        164.544,
+        125.209,
+        190.113,
+        148.842
+      ],
+      "center": [
+        177.329,
+        137.025
+      ],
+      "confidence": 0.84368,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        67.532,
+        441.985,
+        93.06,
+        479.739
+      ],
+      "center": [
+        80.296,
+        460.862
+      ],
+      "confidence": 0.84308,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        458.035,
+        229.026,
+        476.379,
+        253.185
+      ],
+      "center": [
+        467.207,
+        241.105
+      ],
+      "confidence": 0.84238,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        14.277,
+        362.355,
+        51.92,
+        389.93
+      ],
+      "center": [
+        33.099,
+        376.143
+      ],
+      "confidence": 0.84219,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        200.275,
+        109.253,
+        235.83,
+        145.4
+      ],
+      "center": [
+        218.053,
+        127.326
+      ],
+      "confidence": 0.84107,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        439.36,
+        7.9,
+        472.173,
+        47.55
+      ],
+      "center": [
+        455.766,
+        27.725
+      ],
+      "confidence": 0.84067,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        4.096,
+        231.616,
+        33.652,
+        257.512
+      ],
+      "center": [
+        18.874,
+        244.564
+      ],
+      "confidence": 0.84059,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        147.38,
+        384.728,
+        173.155,
+        405.3
+      ],
+      "center": [
+        160.267,
+        395.014
+      ],
+      "confidence": 0.8387,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        76.887,
+        83.878,
+        104.843,
+        106.678
+      ],
+      "center": [
+        90.865,
+        95.278
+      ],
+      "confidence": 0.8381,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        186.059,
+        45.72,
+        203.01,
+        69.222
+      ],
+      "center": [
+        194.535,
+        57.471
+      ],
+      "confidence": 0.83764,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        485.939,
+        141.614,
+        500.743,
+        170.067
+      ],
+      "center": [
+        493.341,
+        155.84
+      ],
+      "confidence": 0.83698,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        390.601,
+        446.485,
+        417.921,
+        482.968
+      ],
+      "center": [
+        404.261,
+        464.727
+      ],
+      "confidence": 0.83658,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        402.728,
+        30.254,
+        428.677,
+        59.391
+      ],
+      "center": [
+        415.702,
+        44.822
+      ],
+      "confidence": 0.83649,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        153.761,
+        439.947,
+        173.149,
+        459.919
+      ],
+      "center": [
+        163.455,
+        449.933
+      ],
+      "confidence": 0.83468,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        76.821,
+        9.199,
+        112.308,
+        39.457
+      ],
+      "center": [
+        94.564,
+        24.328
+      ],
+      "confidence": 0.83455,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        390.827,
+        236.455,
+        412.23,
+        257.73
+      ],
+      "center": [
+        401.528,
+        247.093
+      ],
+      "confidence": 0.83436,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        383.626,
+        344.621,
+        408.608,
+        365.546
+      ],
+      "center": [
+        396.117,
+        355.083
+      ],
+      "confidence": 0.83259,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        158.479,
+        324.225,
+        182.435,
+        346.778
+      ],
+      "center": [
+        170.457,
+        335.502
+      ],
+      "confidence": 0.83236,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        461.111,
+        253.723,
+        481.158,
+        276.379
+      ],
+      "center": [
+        471.134,
+        265.051
+      ],
+      "confidence": 0.83225,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        58.287,
+        212.075,
+        104.045,
+        252.605
+      ],
+      "center": [
+        81.166,
+        232.34
+      ],
+      "confidence": 0.82982,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        7.055,
+        112.343,
+        38.867,
+        145.746
+      ],
+      "center": [
+        22.961,
+        129.045
+      ],
+      "confidence": 0.82958,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        37.339,
+        177.183,
+        71.215,
+        205.118
+      ],
+      "center": [
+        54.277,
+        191.15
+      ],
+      "confidence": 0.82778,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        453.29,
+        152.01,
+        479.621,
+        186.824
+      ],
+      "center": [
+        466.456,
+        169.417
+      ],
+      "confidence": 0.8263,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        184.415,
+        400.58,
+        203.4,
+        431.893
+      ],
+      "center": [
+        193.907,
+        416.237
+      ],
+      "confidence": 0.82401,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        419.658,
+        372.201,
+        445.188,
+        405.436
+      ],
+      "center": [
+        432.423,
+        388.819
+      ],
+      "confidence": 0.82248,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        414.868,
+        215.844,
+        449.193,
+        248.805
+      ],
+      "center": [
+        432.031,
+        232.325
+      ],
+      "confidence": 0.82112,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        78.057,
+        44.59,
+        96.705,
+        70.155
+      ],
+      "center": [
+        87.381,
+        57.373
+      ],
+      "confidence": 0.81952,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        106.862,
+        188.168,
+        130.994,
+        212.262
+      ],
+      "center": [
+        118.928,
+        200.215
+      ],
+      "confidence": 0.81817,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        159.818,
+        0.0,
+        190.799,
+        21.419
+      ],
+      "center": [
+        175.309,
+        10.71
+      ],
+      "confidence": 0.81786,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        116.86,
+        218.383,
+        147.039,
+        250.668
+      ],
+      "center": [
+        131.949,
+        234.525
+      ],
+      "confidence": 0.81762,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        233.807,
+        229.485,
+        262.331,
+        258.404
+      ],
+      "center": [
+        248.069,
+        243.945
+      ],
+      "confidence": 0.81721,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        315.507,
+        476.054,
+        355.507,
+        501.35
+      ],
+      "center": [
+        335.507,
+        488.702
+      ],
+      "confidence": 0.81556,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        179.066,
+        351.899,
+        202.258,
+        382.836
+      ],
+      "center": [
+        190.662,
+        367.368
+      ],
+      "confidence": 0.81147,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        310.204,
+        161.371,
+        340.698,
+        184.117
+      ],
+      "center": [
+        325.451,
+        172.744
+      ],
+      "confidence": 0.80729,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        405.162,
+        411.358,
+        429.456,
+        438.621
+      ],
+      "center": [
+        417.309,
+        424.989
+      ],
+      "confidence": 0.80304,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        140.797,
+        194.846,
+        176.071,
+        221.307
+      ],
+      "center": [
+        158.434,
+        208.076
+      ],
+      "confidence": 0.80063,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        340.275,
+        183.491,
+        356.522,
+        209.676
+      ],
+      "center": [
+        348.398,
+        196.583
+      ],
+      "confidence": 0.79959,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        134.205,
+        351.084,
+        158.969,
+        381.492
+      ],
+      "center": [
+        146.587,
+        366.288
+      ],
+      "confidence": 0.7964,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        53.659,
+        30.318,
+        73.776,
+        54.84
+      ],
+      "center": [
+        63.717,
+        42.579
+      ],
+      "confidence": 0.79587,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        30.616,
+        0.0,
+        59.74,
+        23.316
+      ],
+      "center": [
+        45.178,
+        11.658
+      ],
+      "confidence": 0.79033,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        331.589,
+        134.13,
+        351.588,
+        155.646
+      ],
+      "center": [
+        341.588,
+        144.888
+      ],
+      "confidence": 0.78977,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        489.673,
+        84.632,
+        501.439,
+        116.978
+      ],
+      "center": [
+        495.556,
+        100.805
+      ],
+      "confidence": 0.78958,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        420.793,
+        473.846,
+        448.643,
+        500.6
+      ],
+      "center": [
+        434.718,
+        487.223
+      ],
+      "confidence": 0.78677,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        167.166,
+        291.942,
+        192.981,
+        316.416
+      ],
+      "center": [
+        180.073,
+        304.179
+      ],
+      "confidence": 0.78554,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        66.127,
+        334.315,
+        84.981,
+        356.605
+      ],
+      "center": [
+        75.554,
+        345.46
+      ],
+      "confidence": 0.78396,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        131.505,
+        292.124,
+        161.53,
+        327.714
+      ],
+      "center": [
+        146.518,
+        309.919
+      ],
+      "confidence": 0.77831,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        236.881,
+        451.125,
+        261.653,
+        478.274
+      ],
+      "center": [
+        249.267,
+        464.7
+      ],
+      "confidence": 0.77698,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        279.05,
+        9.322,
+        307.214,
+        49.611
+      ],
+      "center": [
+        293.132,
+        29.467
+      ],
+      "confidence": 0.77648,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        83.23,
+        357.005,
+        100.153,
+        381.739
+      ],
+      "center": [
+        91.691,
+        369.372
+      ],
+      "confidence": 0.77172,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        0.0,
+        26.039,
+        10.744,
+        50.948
+      ],
+      "center": [
+        5.372,
+        38.494
+      ],
+      "confidence": 0.77061,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        411.687,
+        115.865,
+        436.552,
+        139.318
+      ],
+      "center": [
+        424.12,
+        127.591
+      ],
+      "confidence": 0.75985,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        110.186,
+        265.375,
+        134.259,
+        285.671
+      ],
+      "center": [
+        122.223,
+        275.523
+      ],
+      "confidence": 0.75912,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        116.832,
+        163.449,
+        134.813,
+        184.191
+      ],
+      "center": [
+        125.822,
+        173.82
+      ],
+      "confidence": 0.75263,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        364.625,
+        0.05,
+        395.514,
+        19.025
+      ],
+      "center": [
+        380.07,
+        9.538
+      ],
+      "confidence": 0.75206,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        439.571,
+        106.828,
+        467.919,
+        147.701
+      ],
+      "center": [
+        453.745,
+        127.264
+      ],
+      "confidence": 0.7496,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        360.117,
+        34.054,
+        390.209,
+        55.919
+      ],
+      "center": [
+        375.163,
+        44.986
+      ],
+      "confidence": 0.74934,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        129.723,
+        440.514,
+        148.299,
+        464.513
+      ],
+      "center": [
+        139.011,
+        452.514
+      ],
+      "confidence": 0.74002,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        39.927,
+        148.167,
+        62.757,
+        169.849
+      ],
+      "center": [
+        51.342,
+        159.008
+      ],
+      "confidence": 0.73365,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        159.76,
+        475.63,
+        187.228,
+        500.884
+      ],
+      "center": [
+        173.494,
+        488.257
+      ],
+      "confidence": 0.73191,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        100.025,
+        421.407,
+        119.772,
+        442.685
+      ],
+      "center": [
+        109.898,
+        432.046
+      ],
+      "confidence": 0.73184,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        353.611,
+        61.466,
+        374.417,
+        78.285
+      ],
+      "center": [
+        364.014,
+        69.876
+      ],
+      "confidence": 0.73063,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        359.748,
+        234.763,
+        380.521,
+        251.627
+      ],
+      "center": [
+        370.135,
+        243.195
+      ],
+      "confidence": 0.72577,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        210.953,
+        401.911,
+        228.921,
+        428.507
+      ],
+      "center": [
+        219.937,
+        415.209
+      ],
+      "confidence": 0.72551,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        315.429,
+        451.635,
+        336.44,
+        471.362
+      ],
+      "center": [
+        325.934,
+        461.499
+      ],
+      "confidence": 0.72197,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        8.774,
+        145.317,
+        31.429,
+        164.895
+      ],
+      "center": [
+        20.102,
+        155.106
+      ],
+      "confidence": 0.71365,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        485.781,
+        344.644,
+        501.715,
+        367.467
+      ],
+      "center": [
+        493.748,
+        356.056
+      ],
+      "confidence": 0.71233,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        485.5,
+        257.533,
+        499.811,
+        274.313
+      ],
+      "center": [
+        492.656,
+        265.923
+      ],
+      "confidence": 0.70373,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        474.239,
+        122.242,
+        494.803,
+        148.708
+      ],
+      "center": [
+        484.521,
+        135.475
+      ],
+      "confidence": 0.69755,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        12.476,
+        282.39,
+        34.129,
+        301.26
+      ],
+      "center": [
+        23.302,
+        291.825
+      ],
+      "confidence": 0.67577,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        0.037,
+        150.856,
+        13.55,
+        190.73
+      ],
+      "center": [
+        6.793,
+        170.793
+      ],
+      "confidence": 0.67009,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        0.0,
+        265.235,
+        6.342,
+        281.294
+      ],
+      "center": [
+        3.171,
+        273.265
+      ],
+      "confidence": 0.6615,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        25.818,
+        259.613,
+        42.003,
+        279.236
+      ],
+      "center": [
+        33.911,
+        269.425
+      ],
+      "confidence": 0.6394,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        0.194,
+        0.043,
+        18.366,
+        20.617
+      ],
+      "center": [
+        9.28,
+        10.33
+      ],
+      "confidence": 0.63624,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        0.022,
+        89.682,
+        12.352,
+        110.934
+      ],
+      "center": [
+        6.187,
+        100.308
+      ],
+      "confidence": 0.57451,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        47.597,
+        264.391,
+        70.308,
+        289.976
+      ],
+      "center": [
+        58.953,
+        277.183
+      ],
+      "confidence": 0.55299,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        404.629,
+        6.374,
+        422.922,
+        27.174
+      ],
+      "center": [
+        413.775,
+        16.774
+      ],
+      "confidence": 0.55133,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        488.355,
+        9.23,
+        498.979,
+        27.826
+      ],
+      "center": [
+        493.667,
+        18.528
+      ],
+      "confidence": 0.52754,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        0.043,
+        442.558,
+        6.017,
+        484.589
+      ],
+      "center": [
+        3.03,
+        463.573
+      ],
+      "confidence": 0.51919,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    },
+    {
+      "bbox_xyxy": [
+        170.379,
+        459.697,
+        195.988,
+        476.596
+      ],
+      "center": [
+        183.184,
+        468.146
+      ],
+      "confidence": 0.50381,
+      "class_id": 0,
+      "class_name": "barnacle_target",
+      "in_region": true
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "image_id": "img2",
+  "annotation_version": "v1-provisional",
+  "candidate_source": {
+    "file": "data/annotations/candidates/img2_candidates.json",
+    "mask_sha256": "e93156b2e8693806fe0e8e0f62369b10bd78a580b098c365703f17c71c7ebdbc",
+    "n_candidates": 521
+  },
+  "reviewer": {
+    "type": "ai_visual_inspection",
+    "name": "Claude (claude-opus-5-5), automated visual inspection",
+    "date": "2026-10-19",
+    "method": "Inspected numbered contact sheets of every flagged candidate (reports/label_review/<id>/flagged_sheet_*.png, detail_sheet.png with split proposals and neighbouring candidates) and all native-resolution ROI tiles (reports/label_review/<id>/roi_tiles/) with strokes overlaid. No model predictions existed at review time."
+  },
+  "reviewed_region_polygons": [
+    [
+      [
+        955.3,
+        220.7
+      ],
+      [
+        2584.7,
+        225.3
+      ],
+      [
+        2551.7,
+        1863.2
+      ],
+      [
+        964.0,
+        1858.7
+      ]
+    ]
+  ],
+  "notes": {
+    "convention": "Inferred annotation convention, applied consistently: one outline per barnacle around the opercular opening/plates; empty shells (hollow dark interior, no plates) are NOT outlined in either image. This is an observation about the supplied labels, not an ecological live/dead classification.",
+    "ambiguous_cases_for_human_review": [
+      "img2_c000015-type multi_ring outlines (2 candidates): each is one barnacle whose outline has a small extra loop; kept unsplit.",
+      "Empty shells (e.g. near x1740,y500; x1060,y920; x2110,y660) are unlabeled by convention; needs a human decision on whether to count them.",
+      "Targets partly under the frame wire along the ROI boundary are outlined only where visible."
+    ],
+    "unflagged_candidates": "Unflagged single-ring candidates were reviewed only as part of the ROI tile survey, not one by one."
+  },
+  "operations": [
+    {
+      "op": "keep",
+      "ids": [
+        "img2_c000044",
+        "img2_c000061"
+      ],
+      "reason": "one target whose outline has a small extra loop or crossing stroke; not split"
+    },
+    {
+      "op": "keep",
+      "ids": [
+        "img2_c000256"
+      ],
+      "reason": "real target: unclosed ring around an opening, or a small fully filled outline of a small barnacle"
+    },
+    {
+      "op": "delete_artifact",
+      "ids": [
+        "img2_c000004",
+        "img2_c000008",
+        "img2_c000016",
+        "img2_c000017",
+        "img2_c000023",
+        "img2_c000030",
+        "img2_c000032",
+        "img2_c000035",
+        "img2_c000041",
+        "img2_c000046",
+        "img2_c000051",
+        "img2_c000062",
+        "img2_c000067",
+        "img2_c000068",
+        "img2_c000070",
+        "img2_c000072",
+        "img2_c000075",
+        "img2_c000082",
+        "img2_c000088",
+        "img2_c000093",
+        "img2_c000094",
+        "img2_c000098",
+        "img2_c000099",
+        "img2_c000105",
+        "img2_c000107",
+        "img2_c000110",
+        "img2_c000115",
+        "img2_c000119",
+        "img2_c000122",
+        "img2_c000123",
+        "img2_c000129",
+        "img2_c000130",
+        "img2_c000135",
+        "img2_c000138",
+        "img2_c000139",
+        "img2_c000141",
+        "img2_c000142",
+        "img2_c000144",
+        "img2_c000146",
+        "img2_c000160",
+        "img2_c000161",
+        "img2_c000165",
+        "img2_c000167",
+        "img2_c000168",
+        "img2_c000170",
+        "img2_c000174",
+        "img2_c000181",
+        "img2_c000183",
+        "img2_c000185",
+        "img2_c000191",
+        "img2_c000195",
+        "img2_c000198",
+        "img2_c000207",
+        "img2_c000210",
+        "img2_c000215",
+        "img2_c000232",
+        "img2_c000236",
+        "img2_c000238",
+        "img2_c000240",
+        "img2_c000250",
+        "img2_c000258",
+        "img2_c000259",
+        "img2_c000263",
+        "img2_c000268",
+        "img2_c000271",
+        "img2_c000280",
+        "img2_c000285",
+        "img2_c000288",
+        "img2_c000290",
+        "img2_c000291",
+        "img2_c000297",
+        "img2_c000301",
+        "img2_c000304",
+        "img2_c000308",
+        "img2_c000309",
+        "img2_c000311",
+        "img2_c000314",
+        "img2_c000317",
+        "img2_c000319",
+        "img2_c000325",
+        "img2_c000327",
+        "img2_c000332",
+        "img2_c000334",
+        "img2_c000341",
+        "img2_c000342",
+        "img2_c000351",
+        "img2_c000353",
+        "img2_c000357",
+        "img2_c000379",
+        "img2_c000384",
+        "img2_c000390",
+        "img2_c000392",
+        "img2_c000396",
+        "img2_c000404",
+        "img2_c000411",
+        "img2_c000413",
+        "img2_c000415",
+        "img2_c000417",
+        "img2_c000423",
+        "img2_c000425",
+        "img2_c000428",
+        "img2_c000431",
+        "img2_c000434",
+        "img2_c000442",
+        "img2_c000443",
+        "img2_c000444",
+        "img2_c000445",
+        "img2_c000447",
+        "img2_c000457",
+        "img2_c000463",
+        "img2_c000465",
+        "img2_c000468",
+        "img2_c000475",
+        "img2_c000477",
+        "img2_c000481",
+        "img2_c000488",
+        "img2_c000490",
+        "img2_c000492",
+        "img2_c000494",
+        "img2_c000514",
+        "img2_c000516",
+        "img2_c000519",
+        "img2_c000520",
+        "img2_c000521"
+      ],
+      "reason": "1-4 px stray stroke pixels lying within 4 px of an existing outline (one, img2_c000521, at the image corner far outside the ROI); not a separate target"
+    }
+  ]
+}

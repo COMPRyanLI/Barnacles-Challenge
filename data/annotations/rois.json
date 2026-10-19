@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "description": "Inner green-frame scoring regions in original image pixels (x right, y down). Corner order: top-left, top-right, bottom-right, bottom-left. A detection counts when its box centre is inside or on the polygon boundary.",
+  "provenance": {
+    "method": "Inner wire edges measured from wire-colour profiles at six positions per side on the photograph (not from annotation extents); least-squares line per side; corners = line intersections. Each corner was then visually checked in 240 px zoomed crops.",
+    "reviewer_type": "ai_visual_inspection",
+    "reviewer": "Claude (claude-opus-5-5), 2026-10-19",
+    "human_verified": false,
+    "note": "Proposed coordinates. A person should confirm them before the evaluation is treated as verified."
+  },
+  "rois": {
+    "img1": {
+      "polygon": [[1135.5, 511.3], [2552.8, 463.1], [2551.2, 1943.8], [1123.6, 1910.7]],
+      "review_status": "ai_visual_inspection_provisional"
+    },
+    "img2": {
+      "polygon": [[955.3, 220.7], [2584.7, 225.3], [2551.7, 1863.2], [964.0, 1858.7]],
+      "review_status": "ai_visual_inspection_provisional"
+    },
+    "unseen_img1": {
+      "polygon": [[1001.4, 218.6], [2560.3, 184.3], [2558.0, 1754.4], [1035.1, 1768.7]],
+      "review_status": "ai_visual_inspection_provisional"
+    },
+    "unseen_img2": {
+      "polygon": null,
+      "whole_image": true,
+      "review_status": "whole_image_close_up_demo",
+      "note": "No frame is visible. The whole 500 x 500 image is the region; no physical quadrat area is implied."
+    }
+  }
+}

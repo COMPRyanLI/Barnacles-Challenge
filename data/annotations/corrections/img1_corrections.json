@@ -1,0 +1,397 @@
+{
+  "schema_version": 1,
+  "image_id": "img1",
+  "annotation_version": "v1-provisional",
+  "candidate_source": {
+    "file": "data/annotations/candidates/img1_candidates.json",
+    "mask_sha256": "caf204346979219f9e31f8aee12d5d2ba4a7b1fc78336ce16f35c2eea3fe1137",
+    "n_candidates": 1747
+  },
+  "reviewer": {
+    "type": "ai_visual_inspection",
+    "name": "Claude (claude-opus-5-5), automated visual inspection",
+    "date": "2026-10-19",
+    "method": "Inspected numbered contact sheets of every flagged candidate (reports/label_review/<id>/flagged_sheet_*.png, detail_sheet.png with split proposals and neighbouring candidates) and all native-resolution ROI tiles (reports/label_review/<id>/roi_tiles/) with strokes overlaid. No model predictions existed at review time."
+  },
+  "reviewed_region_polygons": [
+    [
+      [
+        1135.5,
+        511.3
+      ],
+      [
+        2552.8,
+        463.1
+      ],
+      [
+        2551.2,
+        1943.8
+      ],
+      [
+        1123.6,
+        1910.7
+      ]
+    ]
+  ],
+  "notes": {
+    "convention": "Inferred annotation convention, applied consistently: one outline per barnacle around the opercular opening/plates; empty shells (hollow dark interior, no plates) are NOT outlined in either image. This is an observation about the supplied labels, not an ecological live/dead classification.",
+    "ambiguous_cases_for_human_review": [
+      "img1_c000898 (multi_ring, 14x12 px at x1189-1203, y1183-1195): kept as one small target; the second interior may be a crossing stroke.",
+      "img1_c001687 (multi_ring, x1976-2011, y1836-1855): split into a small and a larger opening; could be one target.",
+      "img1_c000707 (open_contour, 6x15 px at x1634-1640, y1000-1015): thin mark in a shadowed crevice; kept because the supplied annotation marks it, target not visually confirmable.",
+      "Seaweed-covered area approx. x1450-1700, y1130-1400: barnacles hidden under algae are unlabeled and also invisible; visible ones are outlined.",
+      "Empty shells (e.g. near x1788,y1258; x1938,y1218; x2363,y1278) are unlabeled by convention; whether scientists want them counted needs a human decision.",
+      "Targets partly under the frame wire along the ROI boundary are outlined only where visible."
+    ],
+    "unflagged_candidates": "Unflagged single-ring candidates were reviewed only as part of the ROI tile survey, not one by one."
+  },
+  "operations": [
+    {
+      "op": "split",
+      "id": "img1_c000060",
+      "boxes": [
+        [
+          1338.0,
+          521.0,
+          1360.0,
+          547.0
+        ],
+        [
+          1344.0,
+          546.0,
+          1368.0,
+          573.0
+        ]
+      ],
+      "reason": "outline encloses two touching barnacle openings; boxes from stroke-to-interior split proposal, visually checked"
+    },
+    {
+      "op": "split",
+      "id": "img1_c000064",
+      "boxes": [
+        [
+          1671.0,
+          523.0,
+          1695.0,
+          554.0
+        ],
+        [
+          1671.0,
+          552.0,
+          1687.0,
+          567.0
+        ]
+      ],
+      "reason": "outline encloses two touching barnacle openings; boxes from stroke-to-interior split proposal, visually checked"
+    },
+    {
+      "op": "split",
+      "id": "img1_c000122",
+      "boxes": [
+        [
+          2380.0,
+          561.0,
+          2405.0,
+          582.0
+        ],
+        [
+          2393.0,
+          578.0,
+          2412.0,
+          595.0
+        ]
+      ],
+      "reason": "outline encloses two touching barnacle openings; boxes from stroke-to-interior split proposal, visually checked"
+    },
+    {
+      "op": "split",
+      "id": "img1_c000176",
+      "boxes": [
+        [
+          2123.0,
+          600.0,
+          2144.0,
+          624.0
+        ],
+        [
+          2141.0,
+          616.0,
+          2165.0,
+          632.0
+        ]
+      ],
+      "reason": "outline encloses two touching barnacle openings; boxes from stroke-to-interior split proposal, visually checked"
+    },
+    {
+      "op": "split",
+      "id": "img1_c000179",
+      "boxes": [
+        [
+          2406.0,
+          601.0,
+          2422.0,
+          621.0
+        ],
+        [
+          2388.0,
+          607.0,
+          2411.0,
+          627.0
+        ]
+      ],
+      "reason": "outline encloses two touching barnacle openings; boxes from stroke-to-interior split proposal, visually checked"
+    },
+    {
+      "op": "split",
+      "id": "img1_c000271",
+      "boxes": [
+        [
+          2133.0,
+          661.0,
+          2157.0,
+          686.0
+        ],
+        [
+          2146.0,
+          682.0,
+          2160.0,
+          694.0
+        ]
+      ],
+      "reason": "outline encloses two touching barnacle openings; boxes from stroke-to-interior split proposal, visually checked"
+    },
+    {
+      "op": "split",
+      "id": "img1_c000358",
+      "boxes": [
+        [
+          1538.0,
+          719.0,
+          1568.0,
+          761.0
+        ],
+        [
+          1536.0,
+          760.0,
+          1558.0,
+          778.0
+        ]
+      ],
+      "reason": "outline encloses two touching barnacle openings; boxes from stroke-to-interior split proposal, visually checked"
+    },
+    {
+      "op": "split",
+      "id": "img1_c000404",
+      "boxes": [
+        [
+          2229.0,
+          750.0,
+          2245.0,
+          766.0
+        ],
+        [
+          2215.0,
+          760.0,
+          2240.0,
+          786.0
+        ]
+      ],
+      "reason": "outline encloses two touching barnacle openings; boxes from stroke-to-interior split proposal, visually checked"
+    },
+    {
+      "op": "split",
+      "id": "img1_c000566",
+      "boxes": [
+        [
+          1236.0,
+          863.0,
+          1265.0,
+          896.0
+        ],
+        [
+          1235.0,
+          893.0,
+          1256.0,
+          911.0
+        ]
+      ],
+      "reason": "outline encloses two touching barnacle openings; boxes from stroke-to-interior split proposal, visually checked"
+    },
+    {
+      "op": "split",
+      "id": "img1_c000793",
+      "boxes": [
+        [
+          1671.0,
+          1083.0,
+          1685.0,
+          1104.0
+        ],
+        [
+          1660.0,
+          1093.0,
+          1682.0,
+          1126.0
+        ]
+      ],
+      "reason": "outline encloses two touching barnacle openings; boxes from stroke-to-interior split proposal, visually checked"
+    },
+    {
+      "op": "split",
+      "id": "img1_c000884",
+      "boxes": [
+        [
+          1250.0,
+          1170.0,
+          1271.0,
+          1189.0
+        ],
+        [
+          1228.0,
+          1185.0,
+          1262.0,
+          1208.0
+        ]
+      ],
+      "reason": "outline encloses two touching barnacle openings; boxes from stroke-to-interior split proposal, visually checked"
+    },
+    {
+      "op": "split",
+      "id": "img1_c001055",
+      "boxes": [
+        [
+          1594.0,
+          1314.0,
+          1617.0,
+          1329.0
+        ],
+        [
+          1615.0,
+          1325.0,
+          1638.0,
+          1343.0
+        ]
+      ],
+      "reason": "outline encloses two touching barnacle openings; boxes from stroke-to-interior split proposal, visually checked"
+    },
+    {
+      "op": "split",
+      "id": "img1_c001403",
+      "boxes": [
+        [
+          2018.0,
+          1586.0,
+          2042.0,
+          1611.0
+        ],
+        [
+          1994.0,
+          1587.0,
+          2019.0,
+          1627.0
+        ]
+      ],
+      "reason": "outline encloses two touching barnacle openings; boxes from stroke-to-interior split proposal, visually checked"
+    },
+    {
+      "op": "split",
+      "id": "img1_c001687",
+      "boxes": [
+        [
+          1976.0,
+          1836.0,
+          1988.0,
+          1845.0
+        ],
+        [
+          1985.0,
+          1840.0,
+          2011.0,
+          1855.0
+        ]
+      ],
+      "reason": "outline encloses two touching barnacle openings; boxes from stroke-to-interior split proposal, visually checked; split accepted but ambiguous (see notes)"
+    },
+    {
+      "op": "keep",
+      "ids": [
+        "img1_c000898"
+      ],
+      "reason": "one target whose outline has a small extra loop or crossing stroke; not split"
+    },
+    {
+      "op": "keep",
+      "ids": [
+        "img1_c000005",
+        "img1_c000016",
+        "img1_c000113",
+        "img1_c000146",
+        "img1_c000150",
+        "img1_c000158",
+        "img1_c000215",
+        "img1_c000234",
+        "img1_c000267",
+        "img1_c000290",
+        "img1_c000300",
+        "img1_c000446",
+        "img1_c000503",
+        "img1_c000551",
+        "img1_c000561",
+        "img1_c000705",
+        "img1_c000707",
+        "img1_c000919",
+        "img1_c000980",
+        "img1_c000999",
+        "img1_c001082",
+        "img1_c001121",
+        "img1_c001181",
+        "img1_c001184",
+        "img1_c001192",
+        "img1_c001197",
+        "img1_c001313",
+        "img1_c001316",
+        "img1_c001436",
+        "img1_c001443",
+        "img1_c001476",
+        "img1_c001530",
+        "img1_c001719"
+      ],
+      "reason": "real target: unclosed ring around an opening, or a small fully filled outline of a small barnacle (img1_c000707 ambiguous, kept because the supplied annotation marks it)"
+    },
+    {
+      "op": "delete_artifact",
+      "ids": [
+        "img1_c000066",
+        "img1_c000077",
+        "img1_c000081",
+        "img1_c000100",
+        "img1_c000105",
+        "img1_c000128",
+        "img1_c000190",
+        "img1_c000212",
+        "img1_c000223",
+        "img1_c000253",
+        "img1_c000280",
+        "img1_c000289",
+        "img1_c000336",
+        "img1_c000364",
+        "img1_c000376",
+        "img1_c000383",
+        "img1_c000392",
+        "img1_c000406",
+        "img1_c000424",
+        "img1_c000437",
+        "img1_c000456",
+        "img1_c000458",
+        "img1_c000468",
+        "img1_c000565",
+        "img1_c000605",
+        "img1_c000621",
+        "img1_c000639",
+        "img1_c000641",
+        "img1_c000649"
+      ],
+      "reason": "1-4 px stray stroke pixels lying within 4 px of an existing outline (one, img2_c000521, at the image corner far outside the ROI); not a separate target"
+    }
+  ]
+}

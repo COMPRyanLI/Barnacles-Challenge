@@ -1,0 +1,303 @@
+{
+  "environment": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.22631-SP0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "torch_cuda": "12.8",
+    "cudnn": 91900,
+    "cuda_available": true,
+    "ultralytics": "8.4.182",
+    "numpy": "2.5.2",
+    "opencv": "5.0.0",
+    "pillow": "12.3.0",
+    "torch_num_threads": 14,
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "gpu_memory_gib": 8.0
+  },
+  "protocol": "3 warm-up + 10 timed complete-image runs per setting (time.perf_counter, CUDA synchronised)",
+  "folds": {
+    "A": {
+      "selected_confidence": 0.5,
+      "checkpoint_sha256": "1f375ef8dfcdeef4eeb60f93ba8b9fc4790284677f5221dfc26fb51119bb7a10",
+      "training_duration_s": 114.66302209999412,
+      "gpu_tiled": {
+        "image": "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\Barnacles\\Barnacles\\img2.png",
+        "region_crop_rect": [
+          955,
+          221,
+          2585,
+          1863
+        ],
+        "count_at_conf": 213,
+        "confidence": 0.5,
+        "mode": "tiled",
+        "device": "0",
+        "precision": "fp32",
+        "torch_threads": 14,
+        "tiles": 9,
+        "inference_batch": 8,
+        "tile": {
+          "size": 640,
+          "stride": 512,
+          "pad_value": 114
+        },
+        "model_load_s": 0.16042819999711355,
+        "cold_first_run_s": 1.169632699995418,
+        "warmup_runs": 3,
+        "latency": {
+          "median_ms": 363.7518999967142,
+          "p90_ms": 526.5925099964079,
+          "mean_ms": 400.6631499985815,
+          "min_ms": 353.00160000042524,
+          "max_ms": 546.6589999996359,
+          "n": 10
+        },
+        "stages": {
+          "load_and_region": {
+            "median_ms": 281.21720000126516,
+            "p90_ms": 418.8279700050771,
+            "mean_ms": 308.5966100006772,
+            "min_ms": 268.56279999628896,
+            "max_ms": 425.82340000080876,
+            "n": 10
+          },
+          "prepare_tiles": {
+            "median_ms": 12.773099999321857,
+            "p90_ms": 16.498000002320623,
+            "mean_ms": 13.480939999135444,
+            "min_ms": 11.133299994980916,
+            "max_ms": 18.95949999743607,
+            "n": 10
+          },
+          "tile_inference": {
+            "median_ms": 68.75755000510253,
+            "p90_ms": 88.51732000039192,
+            "mean_ms": 73.35904999999912,
+            "min_ms": 63.27679999958491,
+            "max_ms": 97.43289999460103,
+            "n": 10
+          },
+          "restore_merge_count": {
+            "median_ms": 1.0515499925531913,
+            "p90_ms": 1.878790002228925,
+            "mean_ms": 1.247719999810215,
+            "min_ms": 0.9465000039199367,
+            "max_ms": 2.100999998219777,
+            "n": 10
+          }
+        },
+        "peak_cuda_memory_mib": 231.0244140625,
+        "output_generation_s": {
+          "predictions_json": 0.007834600000933278,
+          "overlay_jpg": 0.2592908000005991
+        },
+        "boundary": "latency = load photo from disk + ROI preparation + all tiles + restore + merge + count; excludes model load and file writing"
+      },
+      "gpu_single_resized_roi": {
+        "image": "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\Barnacles\\Barnacles\\img2.png",
+        "region_crop_rect": [
+          955,
+          221,
+          2585,
+          1863
+        ],
+        "count_at_conf": 284,
+        "confidence": 0.5,
+        "mode": "single resized ROI pass",
+        "device": "0",
+        "precision": "fp32",
+        "torch_threads": 14,
+        "tiles": 1,
+        "inference_batch": 8,
+        "tile": {
+          "size": 640,
+          "stride": 512,
+          "pad_value": 114
+        },
+        "model_load_s": 0.05566559999715537,
+        "cold_first_run_s": 0.634731300000567,
+        "warmup_runs": 3,
+        "latency": {
+          "median_ms": 454.32865000111633,
+          "p90_ms": 465.7011300034355,
+          "mean_ms": 456.2906200008001,
+          "min_ms": 415.1160000037635,
+          "max_ms": 533.5946999985026,
+          "n": 10
+        },
+        "stages": {
+          "prepare_tiles": {
+            "median_ms": 11.404849996324629,
+            "p90_ms": 13.544299995555773,
+            "mean_ms": 11.782030000176746,
+            "min_ms": 9.522300002572592,
+            "max_ms": 15.01579999603564,
+            "n": 10
+          },
+          "tile_inference": {
+            "median_ms": 41.71724999832804,
+            "p90_ms": 43.72549999752664,
+            "mean_ms": 40.51171999817598,
+            "min_ms": 32.47080000437563,
+            "max_ms": 45.37970000092173,
+            "n": 10
+          },
+          "restore_merge_count": {
+            "median_ms": 1.0970500006806105,
+            "p90_ms": 1.2133200005337128,
+            "mean_ms": 1.084360000822926,
+            "min_ms": 0.6342999986372888,
+            "max_ms": 1.8561000033514574,
+            "n": 10
+          }
+        },
+        "peak_cuda_memory_mib": 65.4677734375,
+        "output_generation_s": {
+          "predictions_json": 0.012128100002883002,
+          "overlay_jpg": 0.2367152000006172
+        },
+        "boundary": "latency = load photo from disk + ROI preparation + all tiles + restore + merge + count; excludes model load and file writing"
+      },
+      "cpu_tiled": {
+        "image": "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\Barnacles\\Barnacles\\img2.png",
+        "region_crop_rect": [
+          955,
+          221,
+          2585,
+          1863
+        ],
+        "count_at_conf": 213,
+        "confidence": 0.5,
+        "mode": "tiled",
+        "device": "cpu",
+        "precision": "fp32",
+        "torch_threads": 8,
+        "tiles": 9,
+        "inference_batch": 8,
+        "tile": {
+          "size": 640,
+          "stride": 512,
+          "pad_value": 114
+        },
+        "model_load_s": 0.052770299997064285,
+        "cold_first_run_s": 0.9533604999960517,
+        "warmup_runs": 3,
+        "latency": {
+          "median_ms": 847.1287999964261,
+          "p90_ms": 865.1167400013946,
+          "mean_ms": 835.8428200001072,
+          "min_ms": 792.3966000016662,
+          "max_ms": 874.1602999944007,
+          "n": 10
+        },
+        "stages": {
+          "load_and_region": {
+            "median_ms": 405.94989999954123,
+            "p90_ms": 422.6609900048061,
+            "mean_ms": 398.53191999936826,
+            "min_ms": 360.9204999957001,
+            "max_ms": 429.0661999984877,
+            "n": 10
+          },
+          "prepare_tiles": {
+            "median_ms": 17.670900000666734,
+            "p90_ms": 19.48309999934281,
+            "mean_ms": 17.663509999692906,
+            "min_ms": 13.443199997709598,
+            "max_ms": 20.59910000389209,
+            "n": 10
+          },
+          "tile_inference": {
+            "median_ms": 410.23725000195554,
+            "p90_ms": 420.34991000182345,
+            "mean_ms": 412.2663599999214,
+            "min_ms": 394.57840000250144,
+            "max_ms": 439.9124000046868,
+            "n": 10
+          },
+          "restore_merge_count": {
+            "median_ms": 1.8342500043218024,
+            "p90_ms": 1.9928300018364096,
+            "mean_ms": 1.7903699990711175,
+            "min_ms": 1.2788999956683256,
+            "max_ms": 2.020099993387703,
+            "n": 10
+          }
+        },
+        "peak_cuda_memory_mib": null,
+        "output_generation_s": {
+          "predictions_json": 0.00565199999982724,
+          "overlay_jpg": 0.2530183999988367
+        },
+        "boundary": "latency = load photo from disk + ROI preparation + all tiles + restore + merge + count; excludes model load and file writing"
+      },
+      "cpu_single_resized_roi": {
+        "image": "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\Barnacles\\Barnacles\\img2.png",
+        "region_crop_rect": [
+          955,
+          221,
+          2585,
+          1863
+        ],
+        "count_at_conf": 283,
+        "confidence": 0.5,
+        "mode": "single resized ROI pass",
+        "device": "cpu",
+        "precision": "fp32",
+        "torch_threads": 8,
+        "tiles": 1,
+        "inference_batch": 8,
+        "tile": {
+          "size": 640,
+          "stride": 512,
+          "pad_value": 114
+        },
+        "model_load_s": 0.05504889999428997,
+        "cold_first_run_s": 0.5360067000001436,
+        "warmup_runs": 3,
+        "latency": {
+          "median_ms": 510.2882499995758,
+          "p90_ms": 543.3216699995683,
+          "mean_ms": 511.4242600007856,
+          "min_ms": 474.95660000276985,
+          "max_ms": 545.5524999997579,
+          "n": 10
+        },
+        "stages": {
+          "prepare_tiles": {
+            "median_ms": 10.941149997961475,
+            "p90_ms": 11.946879997412907,
+            "mean_ms": 11.211979999643518,
+            "min_ms": 9.785599999304395,
+            "max_ms": 13.546899994253181,
+            "n": 10
+          },
+          "tile_inference": {
+            "median_ms": 73.45440000062808,
+            "p90_ms": 84.60595000215108,
+            "mean_ms": 74.83835000020918,
+            "min_ms": 62.04619999334682,
+            "max_ms": 94.55770000204211,
+            "n": 10
+          },
+          "restore_merge_count": {
+            "median_ms": 1.1557000034372322,
+            "p90_ms": 1.416130000143312,
+            "mean_ms": 1.1345400002028327,
+            "min_ms": 0.7665000011911616,
+            "max_ms": 1.4767000029678456,
+            "n": 10
+          }
+        },
+        "peak_cuda_memory_mib": null,
+        "output_generation_s": {
+          "predictions_json": 0.006214399996679276,
+          "overlay_jpg": 0.2630610999985947
+        },
+        "boundary": "latency = load photo from disk + ROI preparation + all tiles + restore + merge + count; excludes model load and file writing"
+      }
+    }
+  }
+}

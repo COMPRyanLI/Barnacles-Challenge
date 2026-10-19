@@ -1,0 +1,83 @@
+{
+  "rule": "PASS if training-tile F1@IoU0.5 (conf 0.25) after <= max_updates updates exceeds the untrained-head F1 by >= 0.30",
+  "passed": true,
+  "optimizer_steps": 200,
+  "before": {
+    "conf": 0.25,
+    "tp": 0,
+    "fp": 5,
+    "fn": 1375,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tiles": [
+      {
+        "tile": "img1_train_x1124_y1291.png",
+        "gt": 334,
+        "pred": 1,
+        "tp": 0
+      },
+      {
+        "tile": "img1_train_x1124_y481.png",
+        "gt": 367,
+        "pred": 0,
+        "tp": 0
+      },
+      {
+        "tile": "img1_train_x1124_y993.png",
+        "gt": 344,
+        "pred": 4,
+        "tp": 0
+      },
+      {
+        "tile": "img1_train_x1380_y1291.png",
+        "gt": 330,
+        "pred": 0,
+        "tp": 0
+      }
+    ]
+  },
+  "after": {
+    "conf": 0.25,
+    "tp": 1340,
+    "fp": 18,
+    "fn": 35,
+    "precision": 0.9867452135493373,
+    "recall": 0.9745454545454545,
+    "f1": 0.9806073911452616,
+    "tiles": [
+      {
+        "tile": "img1_train_x1124_y1291.png",
+        "gt": 334,
+        "pred": 329,
+        "tp": 328
+      },
+      {
+        "tile": "img1_train_x1124_y481.png",
+        "gt": 367,
+        "pred": 368,
+        "tp": 360
+      },
+      {
+        "tile": "img1_train_x1124_y993.png",
+        "gt": 344,
+        "pred": 337,
+        "tp": 331
+      },
+      {
+        "tile": "img1_train_x1380_y1291.png",
+        "gt": 330,
+        "pred": 324,
+        "tp": 321
+      }
+    ]
+  },
+  "run_dir": "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\runs\\yolo11n_tile640_v1\\diagnostics\\overfit_20261019-110353",
+  "lr0": 0.0001,
+  "tiles": [
+    "img1_train_x1124_y1291.png",
+    "img1_train_x1124_y481.png",
+    "img1_train_x1124_y993.png",
+    "img1_train_x1380_y1291.png"
+  ]
+}

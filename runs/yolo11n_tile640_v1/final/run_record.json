@@ -1,0 +1,535 @@
+{
+  "created": "2026-10-19T11:26:57+08:00",
+  "run_dir": "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\runs\\yolo11n_tile640_v1\\final",
+  "dataset_yaml": "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\data\\processed\\final\\dataset.yaml",
+  "label_check": {
+    "train": {
+      "images": 18,
+      "instances": 3779
+    },
+    "val": {
+      "images": 18,
+      "instances": 3779
+    }
+  },
+  "pretrained": {
+    "path": "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\weights\\yolo11n.pt",
+    "sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1"
+  },
+  "requested_args": {
+    "imgsz": 640,
+    "epochs": 69,
+    "patience": 0,
+    "batch": 8,
+    "nbs": 8,
+    "optimizer": "AdamW",
+    "lr0": 0.0001,
+    "lrf": 0.1,
+    "weight_decay": 0.0005,
+    "warmup_epochs": 3.0,
+    "warmup_bias_lr": 0.0,
+    "cos_lr": true,
+    "freeze": null,
+    "seed": 42,
+    "deterministic": true,
+    "workers": 0,
+    "rect": false,
+    "cache": false,
+    "amp": true,
+    "val": false,
+    "save": true,
+    "plots": true,
+    "max_det": 2000,
+    "fliplr": 0.5,
+    "flipud": 0.5,
+    "degrees": 0.0,
+    "translate": 0.05,
+    "scale": 0.1,
+    "shear": 0.0,
+    "perspective": 0.0,
+    "hsv_h": 0.01,
+    "hsv_s": 0.2,
+    "hsv_v": 0.2,
+    "mosaic": 0.0,
+    "mixup": 0.0,
+    "copy_paste": 0.0,
+    "multi_scale": false
+  },
+  "resolved_args": {
+    "task": "detect",
+    "mode": "train",
+    "model": "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\weights\\yolo11n.pt",
+    "data": "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\data\\processed\\final\\dataset.yaml",
+    "epochs": 69,
+    "time": null,
+    "patience": 0,
+    "batch": 8,
+    "imgsz": 640,
+    "save": true,
+    "save_period": -1,
+    "cache": false,
+    "device": "0",
+    "workers": 0,
+    "project": "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\runs\\yolo11n_tile640_v1",
+    "name": "final",
+    "exist_ok": false,
+    "pretrained": true,
+    "cls_remap": true,
+    "optimizer": "AdamW",
+    "verbose": true,
+    "seed": 42,
+    "deterministic": true,
+    "single_cls": false,
+    "rect": false,
+    "cos_lr": true,
+    "close_mosaic": 10,
+    "resume": false,
+    "amp": true,
+    "fraction": 1.0,
+    "profile": false,
+    "freeze": null,
+    "multi_scale": false,
+    "compile": false,
+    "channels_last": null,
+    "overlap_mask": true,
+    "mask_ratio": 4,
+    "dropout": 0.0,
+    "val": false,
+    "split": "val",
+    "save_json": false,
+    "conf": null,
+    "iou": 0.7,
+    "max_det": 2000,
+    "quantize": null,
+    "dnn": false,
+    "plots": true,
+    "nms": null,
+    "source": null,
+    "vid_stride": 1,
+    "stream_buffer": false,
+    "visualize": false,
+    "augment": false,
+    "agnostic_nms": false,
+    "classes": null,
+    "retina_masks": false,
+    "embed": null,
+    "show": false,
+    "save_frames": false,
+    "save_txt": false,
+    "save_conf": false,
+    "save_crop": false,
+    "show_labels": true,
+    "show_conf": true,
+    "show_boxes": true,
+    "line_width": null,
+    "format": "torchscript",
+    "optimize": false,
+    "dynamic": false,
+    "simplify": true,
+    "opset": null,
+    "workspace": null,
+    "lr0": 0.0001,
+    "lrf": 0.1,
+    "momentum": 0.937,
+    "weight_decay": 0.0005,
+    "warmup_epochs": 3.0,
+    "warmup_momentum": 0.8,
+    "warmup_bias_lr": 0.0,
+    "distill_model": null,
+    "dis": 6.0,
+    "box": 7.5,
+    "cls": 0.5,
+    "cls_pw": 0.0,
+    "dfl": 1.5,
+    "pose": 12.0,
+    "kobj": 1.0,
+    "rle": 1.0,
+    "angle": 1.0,
+    "dlog": 1.0,
+    "dgrad": 0.5,
+    "dlam": 1.0,
+    "nbs": 8,
+    "hsv_h": 0.01,
+    "hsv_s": 0.2,
+    "hsv_v": 0.2,
+    "degrees": 0.0,
+    "translate": 0.05,
+    "scale": 0.1,
+    "shear": 0.0,
+    "perspective": 0.0,
+    "flipud": 0.5,
+    "fliplr": 0.5,
+    "bgr": 0.0,
+    "mosaic": 0.0,
+    "mixup": 0.0,
+    "cutmix": 0.0,
+    "copy_paste": 0.0,
+    "copy_paste_mode": "flip",
+    "auto_augment": "randaugment",
+    "erasing": 0.4,
+    "cfg": null,
+    "tracker": "tracktrack.yaml",
+    "save_dir": "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\runs\\yolo11n_tile640_v1\\final"
+  },
+  "device": "0",
+  "trainer": {
+    "batch_size": 8,
+    "batches_per_epoch": 3,
+    "accumulate": 1,
+    "warmup_iterations": 9,
+    "train_images": 18,
+    "amp": true
+  },
+  "optimizer_steps": 207,
+  "grad_checks": {
+    "finite_steps": 202,
+    "nonfinite_or_zero_steps": 5,
+    "first_grad_norm_scaled": NaN,
+    "amp_skipped_steps": 5,
+    "applied_updates": 202
+  },
+  "epochs_completed": 69,
+  "elapsed_s": 153.63232170000265,
+  "losses_finite": true,
+  "final_losses": {
+    "train/box_loss": 1.22938,
+    "train/cls_loss": 0.58911,
+    "train/dfl_loss": 0.95468,
+    "val/box_loss": 1.24993,
+    "val/cls_loss": 0.59341,
+    "val/dfl_loss": 1.04783
+  },
+  "fitness_definition": "ultralytics 8.4.182 DetMetrics fitness = mAP50-95 on the val split (weights [0,0,0,1])",
+  "best_epoch": 69,
+  "epoch_fitness": [
+    [
+      1,
+      null
+    ],
+    [
+      2,
+      null
+    ],
+    [
+      3,
+      null
+    ],
+    [
+      4,
+      null
+    ],
+    [
+      5,
+      null
+    ],
+    [
+      6,
+      null
+    ],
+    [
+      7,
+      null
+    ],
+    [
+      8,
+      null
+    ],
+    [
+      9,
+      null
+    ],
+    [
+      10,
+      null
+    ],
+    [
+      11,
+      null
+    ],
+    [
+      12,
+      null
+    ],
+    [
+      13,
+      null
+    ],
+    [
+      14,
+      null
+    ],
+    [
+      15,
+      null
+    ],
+    [
+      16,
+      null
+    ],
+    [
+      17,
+      null
+    ],
+    [
+      18,
+      null
+    ],
+    [
+      19,
+      null
+    ],
+    [
+      20,
+      null
+    ],
+    [
+      21,
+      null
+    ],
+    [
+      22,
+      null
+    ],
+    [
+      23,
+      null
+    ],
+    [
+      24,
+      null
+    ],
+    [
+      25,
+      null
+    ],
+    [
+      26,
+      null
+    ],
+    [
+      27,
+      null
+    ],
+    [
+      28,
+      null
+    ],
+    [
+      29,
+      null
+    ],
+    [
+      30,
+      null
+    ],
+    [
+      31,
+      null
+    ],
+    [
+      32,
+      null
+    ],
+    [
+      33,
+      null
+    ],
+    [
+      34,
+      null
+    ],
+    [
+      35,
+      null
+    ],
+    [
+      36,
+      null
+    ],
+    [
+      37,
+      null
+    ],
+    [
+      38,
+      null
+    ],
+    [
+      39,
+      null
+    ],
+    [
+      40,
+      null
+    ],
+    [
+      41,
+      null
+    ],
+    [
+      42,
+      null
+    ],
+    [
+      43,
+      null
+    ],
+    [
+      44,
+      null
+    ],
+    [
+      45,
+      null
+    ],
+    [
+      46,
+      null
+    ],
+    [
+      47,
+      null
+    ],
+    [
+      48,
+      null
+    ],
+    [
+      49,
+      null
+    ],
+    [
+      50,
+      null
+    ],
+    [
+      51,
+      null
+    ],
+    [
+      52,
+      null
+    ],
+    [
+      53,
+      null
+    ],
+    [
+      54,
+      null
+    ],
+    [
+      55,
+      null
+    ],
+    [
+      56,
+      null
+    ],
+    [
+      57,
+      null
+    ],
+    [
+      58,
+      null
+    ],
+    [
+      59,
+      null
+    ],
+    [
+      60,
+      null
+    ],
+    [
+      61,
+      null
+    ],
+    [
+      62,
+      null
+    ],
+    [
+      63,
+      null
+    ],
+    [
+      64,
+      null
+    ],
+    [
+      65,
+      null
+    ],
+    [
+      66,
+      null
+    ],
+    [
+      67,
+      null
+    ],
+    [
+      68,
+      null
+    ],
+    [
+      69,
+      0.59644
+    ]
+  ],
+  "best_epoch_crosscheck_ok": true,
+  "checkpoints": {
+    "best": {
+      "path": "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\runs\\yolo11n_tile640_v1\\final\\weights\\best.pt",
+      "sha256": "71eb2a91d2a623409bfbddd5920dabf04f364805c33d6bb3597b92d34ce2c87d",
+      "epochs_in_results": 69,
+      "fitness_at_save": 0.59644
+    },
+    "last": {
+      "path": "C:\\Users\\\u674e\u70e8\u5764\\Documents\\ChatGPT\\ML Challenge\\runs\\yolo11n_tile640_v1\\final\\weights\\last.pt",
+      "sha256": "71eb2a91d2a623409bfbddd5920dabf04f364805c33d6bb3597b92d34ce2c87d",
+      "epochs_in_results": 69,
+      "fitness_at_save": 0.59644
+    }
+  },
+  "criterion": {
+    "class": "v8DetectionLoss",
+    "box_gain": 7.5,
+    "cls_gain": 0.5,
+    "dfl_gain": 1.5
+  },
+  "parameters_changed": true,
+  "model_names": {
+    "0": "barnacle_target"
+  },
+  "reload_ok": true,
+  "warnings": [],
+  "nondeterministic_ops": [],
+  "environment": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.22631-SP0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "torch_cuda": "12.8",
+    "cudnn": 91900,
+    "cuda_available": true,
+    "ultralytics": "8.4.182",
+    "numpy": "2.5.2",
+    "opencv": "5.0.0",
+    "pillow": "12.3.0",
+    "torch_num_threads": 14,
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "gpu_memory_gib": 8.0
+  },
+  "purpose": "final train-all demonstration model; img1/img2 scores from it are NOT test results",
+  "fixed_epochs_rule": "round-half-up median of the two outer-fold best epochs",
+  "outer_fold_best_epochs": [
+    80,
+    58
+  ],
+  "pretrained_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+  "validation_note": "val split = training tiles; any val metric is resubstitution only; no early stopping"
+}
